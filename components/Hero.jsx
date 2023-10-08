@@ -19,9 +19,9 @@ const Hero = () => {
 				<div className='absolute h-full w-[1px] right-0 mr-[16px] md:mr-[60px] bg-[#D7D7D7]'></div>
 			</div>
 
-			<div className=' flex mt-[32px] '>
+			<div className=' flex mt-[38px] '>
 				<div className=' w-[16px] md:w-[80px] h-full  '> </div>
-				<div className=' w-full border-transparent '>
+				<div className=' w-full border-transparent mx-[8px] '>
 					<HeroTop />
 					<HeroMiddle />
 				</div>
@@ -33,7 +33,7 @@ const Hero = () => {
 				{/* <div className=' w-[16px] md:w-[80px] h-full border-l-[#D7D7D7]  border-[1.5px] border-transparent  ' ></div> */}
 			</div>
 
-			<div className=' flex mb-[120px] '>
+			<div className=' flex mb-[132px] '>
 				{/* <div className=' w-[16px] md:w-[80px] h-full  border-r-[#D7D7D7] border-[1.5px] border-transparent ' ></div>
                 {/* <LineBottom />                  */}
 				{/* <div className=' w-[16px] md:w-[80px] h-full border-l-[#D7D7D7]  border-[1.5px] border-transparent  ' ></div> */}

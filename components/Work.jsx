@@ -6,7 +6,7 @@ const Work = () => {
 	const router = useRouter();
 
 	return (
-		<div className='bg-[#F5F5F5] p-[16px] pb-[76px] md:py-[34px] md:px-[70px] mt-[-40px] grid grid-cols-1 md:grid-cols-2 gap-[48px] md:gap-[32px] relative z-20 '>
+		<div className='bg-[#F5F5F5] p-[16px] pb-[76px] md:py-[40px] md:px-[70px]  grid grid-cols-1 md:grid-cols-2 gap-[48px] md:gap-[32px] relative z-20 '>
 			{Workdata.map((work, i) => (
 				<div
 					key={i}
