@@ -6,13 +6,13 @@ const Work = () => {
 	const router = useRouter();
 
 	return (
-		<div className='bg-[#F5F5F5] p-[16px] pb-[76px] md:py-[34px] md:px-[70px] mt-[-40px] grid grid-cols-1 md:grid-cols-2 gap-[48px] md:gap-[32px]  '>
+		<div className='bg-[#F5F5F5] p-[16px] pb-[76px] md:py-[34px] md:px-[70px] mt-[-40px] grid grid-cols-1 md:grid-cols-2 gap-[48px] md:gap-[32px] relative z-20 '>
 			{Workdata.map((work, i) => (
 				<div
 					key={i}
 					className='flex flex-col space-y-[24px] cursor-pointer '
 					onClick={() => {
-						router.push(`/Projects/${work.id}`);
+						router.push(`/${work.id}`);
 					}}
 				>
 					{/* <div className='bg-[#D9D9D9] rounded-[8px] w-full h-[280px] md:h-[435px]  ' 

@@ -9,7 +9,7 @@ export const Workdata = [
 
     {
         name:"AttendX",
-        id:2,
+        id:"AttendX",
         text:"Attendance Management System",
         image:"AttendX Web.png"
     },
@@ -30,7 +30,7 @@ export const Workdata = [
 
     {
         name:"CSC Class of 2022",
-        id:5,
+        id:"/CSC21",
         text:"Digital Yearbook",
         image:"CSC Web.png"
     },

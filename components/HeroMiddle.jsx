@@ -15,10 +15,7 @@ const HeroMiddle = () => {
         >
 
         </div>
-
-        <div className='w-[32px] h-[32px] ml-[-1px] mb-[-1px]  md:w-[48px] md:h-[48px] border-t-[#D7D7D7] border-r-[#D7D7D7] border-[1.5px] border-[#d7d7d7] z-[-10]  absolute bottom-0 left-0 ' >
-
-        </div>
+      
     </div>
   )
 }
