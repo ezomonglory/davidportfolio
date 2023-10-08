@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @font-face {
 	font-family: "librereg";
 	src: url("../fonts/librebaskerville-regular-webfont.woff2") format("woff2"),
@@ -19,7 +17,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 
 @font-face {
 	font-family: "neue_montrealmedium";
@@ -37,8 +34,6 @@
 	font-style: normal;
 }
 
-
-
 .neue-reg {
 	font-family: neue_montrealregular;
 }
@@ -51,34 +46,47 @@
 	font-family: librereg;
 }
 
-.libre-md{
-    font-family: librebold;
+.libre-md {
+	font-family: librebold;
 }
 
 .scroll-container {
-    width: 100%; /* Set the width of the container */
-    overflow: hidden; /* Hide the overflowing content */
-    position: relative; /* Positioning for absolute content */
-  }
-  
-  .scroll-container div {
-    white-space: nowrap; /* Prevent text from wrapping to the next line */
-    animation: scroll 100s linear infinite; /* Animation for scrolling */
-  }
+	width: 100%; /* Set the width of the container */
+	overflow: hidden; /* Hide the overflowing content */
+	position: relative; /* Positioning for absolute content */
+}
 
-  @media (max-width:700px) {
-    .scroll-container div {
-        white-space: nowrap; /* Prevent text from wrapping to the next line */
-        animation: scroll 10s linear infinite; /* Animation for scrolling */
-      }
-  }
-  
-  @keyframes scroll {
-    0% {
-      transform: translateX(0%); /* Start off-screen to the right */
-    }
-    100% {
-      transform: translateX(-100%); /* Move off-screen to the left */
-    }
-  }
-  
+.scroll-container div {
+	white-space: nowrap; /* Prevent text from wrapping to the next line */
+	animation: scroll 100s linear infinite; /* Animation for scrolling */
+}
+
+@media (max-width: 700px) {
+	.scroll-container div {
+		white-space: nowrap; /* Prevent text from wrapping to the next line */
+		animation: scroll 10s linear infinite; /* Animation for scrolling */
+	}
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0%); /* Start off-screen to the right */
+	}
+	100% {
+		transform: translateX(-100%); /* Move off-screen to the left */
+	}
+}
+
+.text-gradient {
+	background: var(--mine, linear-gradient(180deg, #ff6c1a 0%, #ff443e 100%));
+	-webkit-background-clip: text; /* Clip the gradient to the text */
+	background-clip: text;
+	color: transparent;
+}
+
+.bg-gradient {
+	background: var(--mine, linear-gradient(180deg, #ff6c1a 0%, #ff443e 100%));
+	color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+}

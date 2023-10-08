@@ -13,43 +13,47 @@ const ID = ({ project }) => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<div className='overflow-hidden md:pb-[100px] pb-[60px] '>
-				<hr className='w-screen h-[1px] md:h-[1.5px] bg-[#D7D7D7] mt-[34px] ' />
-				<div className='md:mx-[80px] mx-[16px] '>
+				{/* <hr className='w-screen h-[1px] md:h-[1.5px] bg-[#D7D7D7] mt-[34px] ' /> */}
+				<div className='md:mx-[80px] mx-[16px] mt-[34px]  '>
 					<div className=' flex flex-col gap-[24px] md:mb-[80px]  md:gap-[60px]   '>
 						<HeroTop />
 						<div className='md:mx-[60px] mx-[16px]  '>
-							<div className='flex flex-col md:flex-row items-start justify-between md:items-center'>
-								<div className='flex flex-col space-y-[24px] mb-[12px] md:mb-0 '>
+							<div className='flex flex-col  items-start justify-between '>
+								<div className='flex flex-col space-y-[24px] mb-[16px]  border-transparent border-b-[#D7D7D7] border-[1.5px] pb-[24px] w-full'>
 									<h1 className='text-black text-[30px] md:text-[46px] leading-[32px] md:leading-[54px] md:tracking-[-2.76px] libre-reg '>
 										{" "}
 										{project.name}{" "}
 									</h1>
-									<div className='border-[1px] border-[#e22] rounded-[24px] md:px-[20px] md:py-[10px] px-[24px] py-[10px] md:text-[18px] neue-md md:leading-[28px] md:tracking-[-0.54px] text-[#e22]  space-x-[8px] items-center hidden md:flex w-max  '>
-										<p>Vist Site</p>
-										{redArrWeb}
-										{redArrMobile}
-									</div>
 								</div>
+
+								{/* <div className='border-[1px] border-[#e22] rounded-[24px] md:px-[20px] md:py-[10px] px-[24px] py-[10px] md:text-[18px] neue-md md:leading-[28px] md:tracking-[-0.54px] text-[#e22]  space-x-[8px] items-center hidden md:flex w-max  '>
+									<p>Vist Site</p>
+									{redArrWeb}
+									{redArrMobile}
+								</div> */}
 								<div className='flex flex-col space-y-[4px] '>
-									<div>
+									<div className="flex space-x-2 items-center" >
 										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-1.08px] libre-reg  '>
-											Role
+											Role:
 										</h1>
 										<p className='text-[#787878] text-[12px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
 											{" "}
 											UI Designer, Researcher{" "}
 										</p>
 									</div>
-									<div>
+									<div className="flex space-x-2 items-center" >
 										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-1.08px] libre-reg  '>
-											Duration
+											Duration:
 										</h1>
 										<p className='text-[#787878] text-[12px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
 											{" "}
 											2 Month{" "}
 										</p>
 									</div>
+
 								</div>
+
+                                    <h1 className="text-gradient leading-[28px] neue-md cursor-pointer font-[500] mt-[12px] " >View Full Case Studies</h1>
 
 								<div className='border-[1px] border-[#e22] rounded-[24px] md:px-[20px] md:py-[10px] px-[24px] py-[10px] md:text-[18px] neue-md md:leading-[28px] md:tracking-[-0.54px] text-[#e22]  space-x-[8px] items-center flex md:hidden mt-[12px] w-max  '>
 									<p>Vist Site</p>
@@ -59,7 +63,7 @@ const ID = ({ project }) => {
 							</div>
 						</div>
 					</div>
-					<div className=' h-[300px] md:h-[588px]  bg-[#D9D9D9] rounded-[2px] md:my-[60px] my-[20px]  '></div>
+					<div className=' h-[300px] md:h-[588px]  bg-[#D9D9D9] rounded-[2px] mx-[60px] my-[20px]  '></div>
 
 					<div className='md:mx-[60px] flex flex-col space-y-[32px] '>
 						<ProjectText
@@ -71,7 +75,7 @@ const ID = ({ project }) => {
 							text='Lorem ipsum dolor sit amet consectetur. Dictum elementum urna tortor purus neque eget auctor sit lectus. Congue laoreet amet elit at nunc viverra adipiscing. Nisl ac volutpat auctor viverra vestibulum. Morbi at vel dictum tristique massa. Vel etiam tellus ut libero risus at arcu non eu. Dolor condimentum amet neque massa. Lacus amet purus urna venenatis. Tincidunt imperdiet consequat et ipsum netus convallis. Enim magna amet viverra tincidunt. Ridiculus dignissim pharetra nibh nam cursus iaculis ut aliquet. Pretium in integer amet facilisis senectus.'
 						/>
 					</div>
-					<div className=' h-[300px] md:h-[588px]  bg-[#D9D9D9] rounded-[2px] md:my-[60px] my-[20px]  '></div>
+					<div className=' h-[300px] md:h-[588px]  bg-[#D9D9D9] rounded-[2px] mx-[60px] my-[20px]  '></div>
 					<div className='md:mx-[60px] flex flex-col space-y-[32px] '>
 						<ProjectText
 							heading='Existing Design'

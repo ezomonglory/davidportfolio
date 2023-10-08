@@ -3,7 +3,7 @@ export const Workdata = [
         name:"Digipass",
         id:1,
         text:"Mobile authenticator access control",
-        image:""
+        image:"Digipass web.png"
     },
 
 
@@ -11,35 +11,35 @@ export const Workdata = [
         name:"AttendX",
         id:2,
         text:"Attendance Management System",
-        image:""
+        image:"AttendX Web.png"
     },
 
     {
         name:"Siav",
         id:3,
         text:"Health Insurance",
-        image:""
+        image:"Siav Web.png"
     },
 
     {
         name:"Ezomon Glory",
         id:4,
         text:"Portfolio Website",
-        image:""
+        image:"Ezomon Glory.png"
     },
 
     {
         name:"CSC Class of 2022",
         id:5,
         text:"Digital Yearbook",
-        image:""
+        image:"CSC Web.png"
     },
     
     {
         name:"RCF(Uniben) App",
         id:6,
         text:"Lifestyle",
-        image:""
+        image:"RCF Uniben Web.png"
     }
 ]
 

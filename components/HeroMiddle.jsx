@@ -6,7 +6,13 @@ const HeroMiddle = () => {
         <h1 className='text-[#212121] md:text-[146px] md:tracking-[-8.76px] text-[68px] leading-[70px] md:leading-[135px] tracking-[-4.08px] order-2 md:order-1 libre-reg  ' >Product <br/> Designer. </h1>
 
 
-        <div className='bg-[#D9D9D9]  h-[147px] w-[130px] rounded-[0.5px] border-[6px] border-[#F5F5F5] order-1 md:order-2 ' >
+        <div className='bg-[#D9D9D9]  h-[147px] w-[130px] rounded-[0.5px]  order-1 md:order-2 ' 
+        style={{
+            backgroundImage:'url("/Picture Web.png")',
+            backgroundPosition:"contain",
+            backgroundSize:"cover",
+        }}
+        >
 
         </div>
 

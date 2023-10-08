@@ -7,7 +7,7 @@ const HeroFooter = () => {
         Fancy having you here, i’m David. Currently open for roles/gigs <br className='hidden md:block' />
         you can reach me via dayviid02@gmail.com
         </p>
-
+{/* 
         <div className='border-[1px] border-[#e22] rounded-[24px] md:px-[20px] md:py-[10px] px-[24px] py-[10px] md:text-[18px] neue-md md:leading-[28px] md:tracking-[-0.54px] text-[#e22] flex space-x-[8px] items-center   ' >
             <p>Hire Me</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 32 24" fill="none" className='hidden md:block' >
@@ -31,6 +31,10 @@ const HeroFooter = () => {
     </clipPath>
   </defs>
 </svg>
+        </div> */}
+
+        <div className='bg-gradient ' >
+            Hire me
         </div>
     </div>
   )

@@ -18,7 +18,13 @@ const Work = () => {
                     router.push(`/Projects/${work.id}`)
                 }}
             >
-                <div className='bg-[#D9D9D9] rounded-[8px] w-full h-[280px] md:h-[435px]  ' >
+                <div className='bg-[#D9D9D9] rounded-[8px] w-full h-[280px] md:h-[435px]  ' 
+                style={{
+                    backgroundImage:`url('/${work.image}')`,
+                    backgrounPosition:"contain",
+                    backgroundSize:"contain"
+                }}
+                >
 
                 </div>
                 <div>
@@ -31,6 +37,7 @@ const Work = () => {
             </div>
         ))
     }
+
 
 
     </div>
