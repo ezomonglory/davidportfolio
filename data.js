@@ -3,7 +3,7 @@ export const Workdata = [
         name:"Digipass",
         id:1,
         text:"Mobile authenticator access control",
-        image:"Digipass web.png"
+        image:"Digipass Web.png"
     },
 
 
