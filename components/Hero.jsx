@@ -12,31 +12,28 @@ const Hero = () => {
 			{/* <LineTop />         */}
 			<div className='absolute inset-0 flex items-start justify-start '>
 				{/* Horizontal Line */}
-				<div className='absolute w-full  mt-[32px]  h-[1px] bg-[#D7D7D7]'></div>
+				<div className='absolute w-full  mt-[32px]  h-[1.5px] bg-[#D7D7D7]'></div>
 
 				{/* Vertical Line */}
-				<div className='absolute h-full w-[1px] ml-[16px] md:ml-[60px] bg-[#D7D7D7]'></div>
-				<div className='absolute h-full w-[1px] right-0 mr-[16px] md:mr-[60px] bg-[#D7D7D7]'></div>
+				<div className='absolute h-full w-[1.5px] ml-[16px] md:ml-[60px] bg-[#D7D7D7]'></div>
+				<div className='absolute h-full w-[1.5px] right-0 mr-[16px] md:mr-[60px] bg-[#D7D7D7]'></div>
 			</div>
 
 			<div className=' flex mt-[38px] '>
 				<div className=' w-[16px] md:w-[80px] h-full  '> </div>
-				<div className=' w-full border-transparent mx-[8px] '>
+				<div className=' w-full border-transparent mx-[4px] '>
 					<HeroTop />
 					<HeroMiddle />
 				</div>
 				<div className=' w-[16px] md:w-[80px] h-full  '> </div>
 			</div>
 			<div className=' flex mx-[16px] md:mx-[60px]'>
-				{/* <div className=' w-[16px] md:w-[80px] h-full  border-r-[#D7D7D7] border-[1.5px] border-transparent ' ></div> */}
+				
 				<HeroFooter />
-				{/* <div className=' w-[16px] md:w-[80px] h-full border-l-[#D7D7D7]  border-[1.5px] border-transparent  ' ></div> */}
+				
 			</div>
 
-			<div className=' flex mb-[132px] '>
-				{/* <div className=' w-[16px] md:w-[80px] h-full  border-r-[#D7D7D7] border-[1.5px] border-transparent ' ></div>
-                {/* <LineBottom />                  */}
-				{/* <div className=' w-[16px] md:w-[80px] h-full border-l-[#D7D7D7]  border-[1.5px] border-transparent  ' ></div> */}
+			<div className=' flex mb-[132px] '>			
 			</div>
 		</div>
 	);
