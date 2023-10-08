@@ -90,3 +90,10 @@
     padding: 10px 24px;
     border-radius: 4px;
 }
+
+
+@media (min-width:765px ) and (max-width:910px) {
+    .protext{
+        font-size: 115px !important;
+    }
+}

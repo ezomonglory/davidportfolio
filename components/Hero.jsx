@@ -10,7 +10,7 @@ const Hero = () => {
     <div className='overflow-hidden' >
          <LineTop />        
    
-            <div className=' flex ' >
+            <div className=' flex mt-[-5px] ' >
                 <div className=' w-[16px] md:w-[80px] h-full  ' > </div>
                     <div className='border-l-[#D7D7D7] border-r-[#D7D7D7] border-[1.5px] w-full border-transparent ' > 
                         <HeroTop />

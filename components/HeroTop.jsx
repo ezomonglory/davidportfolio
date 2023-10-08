@@ -25,7 +25,7 @@ const HeroTop = () => {
 	}, [date]);
 
 	return (
-		<div className='flex justify-between'>
+		<div className='flex justify-between  '>
 			<h1 className='neue-md md:text-[18px] text-[14px] leading-[22px] tracking-[-0.28px] md:leading-[28px] md:tracking-[-0.36px]   '>
 				David Otu
 			</h1>
