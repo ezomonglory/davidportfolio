@@ -34,6 +34,18 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: "neue_montreallight";
+	src: url("../fonts/neuemontreal-light-webfont.woff2") format("woff2"),
+		url("../fonts/neuemontreal-light-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.neue-light {
+	font-family: "neue_montreallight";
+}
+
 .neue-reg {
 	font-family: neue_montrealregular;
 }
@@ -87,13 +99,12 @@
 .bg-gradient {
 	background: var(--mine, linear-gradient(180deg, #ff6c1a 0%, #ff443e 100%));
 	color: white;
-    padding: 10px 24px;
-    border-radius: 4px;
+	padding: 10px 24px;
+	border-radius: 4px;
 }
 
-
-@media (min-width:765px ) and (max-width:910px) {
-    .protext{
-        font-size: 115px !important;
-    }
+@media (min-width: 765px) and (max-width: 910px) {
+	.protext {
+		font-size: 115px !important;
+	}
 }

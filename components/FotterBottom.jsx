@@ -9,7 +9,7 @@ const FotterBottom = () => {
 					dayviid02@gmail.com
 				</div>
 
-				<div className='flex space-x-[8px] w-full order-1 md:order-2 '>
+				<div className='flex space-x-[16px] w-full order-1 md:order-2 '>
 					<div className='bg-[#f5f5f5] rounded-full w-ma flex w-[52px] h-[52px] items-center justify-center  '>
 						{linkeinsvg}
 					</div>

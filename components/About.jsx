@@ -2,18 +2,18 @@ import React from "react";
 
 const About = () => {
 	return (
-		<div className='flex flex-col  justify-between flex-ccol md:flex-row mx-[16px] md:mx-[70px] border-[1px] md:border-t-[#D7D7D7] border-transparent md:pt-[40px] md:mt-[56px] mt-[20px] pt-[20px]  '>
+		<div className='flex flex-col  justify-between flex-col md:flex-row mx-[16px] md:mx-[70px] border-[1px] md:border-t-[#D7D7D7] border-transparent md:pt-[40px] md:mt-[56px] mt-[20px] pt-[20px]  '>
 			<div className='md:w-[50%] flex space-y-[24px]  flex-col w-full  '>
-				<h1 className='text-[#212121] libre-reg text-[30px] leading-[38px]  md:text-[46px] md:leading-[54px] md:tracking-[-2.7px] libre-reg  '>
+				<h1 className='text-[#212121] libre-reg text-[30px] leading-[38px]  md:text-[46px] md:leading-[50px] md:tracking-[-6%] libre-reg  '>
 					Hi there, <br />
 					i’m David Otu
 				</h1>
 
-				<div className='bg-gradient md:inline-flex w-[100px] hidden  '>Resume</div>
+				<div className='bg-gradient md:inline-flex w-[100px] tracking-[-2%] hidden  '>Resume</div>
 			</div>
 
 			<div className='md:w-[50%] space-y-[24px] '>
-				<p className='text-[#505050] neue-reg md:text-[18px] md:leading-[26px] text-[14px] leading-[22px]   '>
+				<p className='text-[#505050] neue-reg md:text-[16px] md:leading-[28px] tracking-[-2%] text-[14px] leading-[22px]   '>
 					I started out as a meme enthusiast creating funny visuals when i
 					discovered Corel draw during my secondary school days. Overtime, i
 					ascended the ranks and evolved into a professional graphic designer.
