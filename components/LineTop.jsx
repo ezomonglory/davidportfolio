@@ -7,7 +7,7 @@ const LineTop = () => {
 
         </div>
 
-        <div className='w-full h-full border-b-[#D7D7D7] border-l-[#D7D7D7] border-r-[#D7D7D7]   border-[0.75px] border-transparent ' >
+        <div className='w-full h-full border-b-[#D7D7D7] border-l-[#D7D7D7] border-r-[#D7D7D7]   border-[10.75px] border-transparent ' >
     
         </div>
 
