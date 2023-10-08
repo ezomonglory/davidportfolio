@@ -22,7 +22,7 @@ const FooterTop = () => {
 	}, []);
 
 	return (
-		<div className='md:mt-[114px]  '>
+		<div className='md:mt-[114px] mt-[60px]  '>
 			<h1 className='text-[#505050]  text-[30px] leading-[46px]  tracking-[1.14px]  md:text-[56px] md:leading-[64px] md:tracking-[-1.7px] neue-reg text-center font-[300] '>
 				Get in touch - Get in touch
 			</h1>
