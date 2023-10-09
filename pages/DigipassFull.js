@@ -43,7 +43,7 @@ const DigipassFull = () => {
 								</div> */}
 								<div className='flex flex-col space-y-[4px] '>
 									<div className='flex space-x-2 items-center'>
-										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-1.08px] libre-reg  '>
+										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-0.5px] neue-md  '>
 											Role:
 										</h1>
 										<p className='text-[#787878] text-[12px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
@@ -52,7 +52,7 @@ const DigipassFull = () => {
 										</p>
 									</div>
 									<div className='flex space-x-2 items-center'>
-										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-1.08px] libre-reg  '>
+										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-0.5px] neue-md  '>
 											Deliverables:
 										</h1>
 										<p className='text-[#787878] text-[12px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
