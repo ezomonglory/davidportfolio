@@ -66,7 +66,7 @@ const AttendX = () => {
 							<img src='/AttendX Web.png' alt='dd' className='w-full' />
 						</div>
 
-						<div className='  flex flex-col space-y-[32px] '>
+						<div className='  flex flex-col space-y-[16px] md:space-y-[32px] '>
 							<ProjectText
 								heading='Introduction'
 								text='According to the National Universities Commission in Nigeria, students must meet up to 75% lecture attendance to qualify for that course’s examination. According to their analysis, students who attend class regularly can improve their academic performance. The general method used by some tertiary institutions during physical classes involves writing attendance on paper.

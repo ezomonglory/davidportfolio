@@ -64,7 +64,7 @@ const CSC21 = () => {
 							<img src='/CSC Web.png' alt='dd' className='w-full' />
 						</div>
 
-						<div className='  flex flex-col space-y-[32px] '>
+						<div className='  flex flex-col space-y-[16px] md:space-y-[32px] '>
 							<ProjectText
 								heading='Overview'
 								text='I came up with an idea to create a digital experience for my class where we had a website that housed our memories in form of pictures and videos and luckily, it synced with the fact that it was my final academic year in school and there was a list of activities they had planned for the final year week otherwise known as FYB Week.'
