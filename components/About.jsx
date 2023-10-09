@@ -17,7 +17,7 @@ const About = () => {
 			</div>
 
 			<div className='md:w-[50%] space-y-[24px] '>
-				<p className='text-[#505050] neue-reg md:text-[16px] md:leading-[28px] tracking-[-1%] md:tracking-[-0.5px] text-[14px] leading-[24px] mb-[8px] flex items-end justify-end   '>
+				<p className='text-[#787878] neue-reg md:text-[16px] md:leading-[28px] tracking-[-1%] md:tracking-[0px] text-[14px] leading-[24px] mb-[8px] flex md:items-end md:justify-end   '>
 					{/* I started out as a meme enthusiast creating funny visuals when i
 					discovered Corel draw during my secondary school days. Overtime, i
 					ascended the ranks and evolved into a professional graphic designer.
