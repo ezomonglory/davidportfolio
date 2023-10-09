@@ -19,9 +19,9 @@ const Hero = () => {
 				<div className='absolute h-full w-[1.5px] right-0 mr-[16px] md:mr-[60px] bg-[#D7D7D7]'></div>
 			</div>
 
-			<div className=' flex mt-[38px] '>
-				<div className=' w-[16px] md:w-[80px] h-full  '> </div>
-				<div className=' w-full border-transparent mx-[4px] '>
+			<div className=' flex mt-[38px] overflow-hidden '>
+				<div className=' w-[16px] md:w-[81px] h-full  '> </div>
+				<div className=' w-full border-transparent px-[4px] '>
 					<HeroTop />
 					<HeroMiddle />
 				</div>

@@ -9,7 +9,7 @@ const About = () => {
 					i’m David Otu
 				</h1>
 
-				<div className='bg-gradient md:inline-flex w-[100px] tracking-[-2%] hidden  '>Resume</div>
+				<div className='bg-gradient md:inline-block w-[140px] !rounded-[8px] tracking-[-2%] hidden text-center  '>Resume</div>
 			</div>
 
 			<div className='md:w-[50%] space-y-[24px] '>

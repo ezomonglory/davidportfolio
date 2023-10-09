@@ -107,4 +107,8 @@
 	.protext {
 		font-size: 115px !important;
 	}
+
+    .smallbox{
+        left:-12px !important;
+    }
 }
