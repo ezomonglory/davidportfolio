@@ -23,7 +23,7 @@ const FooterTop = () => {
 
 	return (
 		<div className='md:mt-[114px] mt-[80px]  '>
-			<h1 className='text-[#505050]  text-[30px] leading-[46px]  tracking-[1.14px]  md:text-[56px] md:leading-[64px] md:tracking-[-2%] neue-light text-center font-[300] '>
+			<h1 className='text-[#505050]  text-[30px] leading-[38px]  tracking-[-3%]  md:text-[56px] md:leading-[64px] md:tracking-[-2%] neue-light text-center font-[300] '>
 				Get in touch - Get in touch
 			</h1>
 
