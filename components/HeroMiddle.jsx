@@ -20,7 +20,7 @@ const HeroMiddle = () => {
 				{/* Horizontal Line */}
 				<div className='absolute w-[50px]  h-[1.5px] bg-[#D7D7D7]'></div>
 
-				<div className='absolute h-[50px] w-[2.5px] right-0 bg-[#D7D7D7]'></div>				
+				<div className='absolute h-[50px] w-[1.5px] right-0 bg-[#D7D7D7]'></div>				
 				{/* Vertical Line */}
 			</div>
 		</div>

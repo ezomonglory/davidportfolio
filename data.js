@@ -1,7 +1,7 @@
 export const Workdata = [
     {
         name:"Digipass",
-        id:1,
+        id:"/DigipassSimple",
         text:"Mobile authenticator access control",
         image:"DigiPass Web.png"
     },
@@ -23,7 +23,7 @@ export const Workdata = [
 
     {
         name:"Ezomon Glory",
-        id:4,
+        id:"/EzomonGlory",
         text:"Portfolio Website",
         image:"Ezomon Glory.png"
     },
