@@ -6,7 +6,7 @@ const Work = () => {
 	const router = useRouter();
 
 	return (
-		<div className='bg-[#F5F5F5] p-[16px] pb-[76px] md:pb-[132px] md:pt-[40px] md:px-[70px]  grid grid-cols-1 md:grid-cols-2 gap-[48px] md:gap-[32px] relative z-20 '>
+		<div className='bg-[#F5F5F5] px-[16px] pt-[32px] pb-[80px] md:pb-[132px] md:pt-[40px] md:px-[70px]  grid grid-cols-1 md:grid-cols-2 gap-[48px] md:gap-[32px] relative z-20 '>
 			{Workdata.map((work, i) => (
 				<div
 					key={i}
@@ -26,7 +26,7 @@ const Work = () => {
                     </div> */}
 					<img className='w-full h-full' src={`${work.image}`} />
 					<div>
-						<h1 className='md:text-[20px] neue-md md:leading-[28px] md:tracking-[0.6px] text-[18px] text-[#212121]  '>
+						<h1 className='text-[20px] neue-md leading-[28px] mtracking-[-2%]  text-[#212121]  '>
 							{work.name}
 						</h1>
 

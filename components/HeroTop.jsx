@@ -30,7 +30,7 @@ const HeroTop = () => {
     const router = useRouter()
 
 	return (
-		<div className='flex justify-between  '>
+		<div className='flex justify-between p-[4px] '>
 			{pathname === "/" ? (
 				<h1 className='neue-md md:text-[18px] text-[14px] leading-[22px] tracking-[-0.28px] md:leading-[28px] md:tracking-[-0.36px]   '>
 					David Otu
@@ -45,8 +45,8 @@ const HeroTop = () => {
 				</h1>
 			)}
 
-			<div className='flex order-1 items-center space-x-[8px] '>
-				<p className='md:leading-[28px] md:tracking-[-0.18px] text-[14px] leading-[22px] tracking-[0.14px] md:text-[18px] text-[#000] order-1'>
+			<div className='flex order-1 items-center space-x-[2px] md:space-x-[8px] '>
+				<p className='md:leading-[28px] md:tracking-[-0.18px] text-[14px]  tracking-[0.14px] md:text-[18px] text-[#000] order-1'>
 					{date?.getHours()}:{Minutes()}{" "}
 				</p>
 

@@ -1,28 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 
 const About = () => {
+	const [show, setShow] = useState(false);
+
 	return (
-		<div className='flex flex-col  justify-between flex-col md:flex-row mx-[16px] md:mx-[70px] border-[1px] md:border-t-[#D7D7D7] border-transparent md:pt-[40px] md:mt-[56px] mt-[20px] pt-[20px]  '>
+		<div className='flex flex-col  justify-between  md:flex-row mx-[16px] md:mx-[70px] border-[1px] md:border-t-[#D7D7D7] border-transparent md:pt-[40px] md:mt-[56px] mt-[20px] pt-[32px]  '>
 			<div className='md:w-[50%] flex space-y-[24px]  flex-col w-full  '>
-				<h1 className='text-[#212121] libre-reg text-[30px] leading-[38px]  md:text-[46px] md:leading-[50px] md:tracking-[-6%] libre-reg  '>
+				<h1 className='text-[#212121] libre-reg text-[30px] leading-[36px]  md:text-[46px] md:leading-[50px] tracking-[-6%] libre-reg  '>
 					Hi there, <br />
 					i’m David Otu
 				</h1>
 
-				<div className='bg-gradient md:inline-block w-[140px] !rounded-[8px] tracking-[-2%] hidden text-center  '>Resume</div>
+				<div className='bg-gradient md:inline-block w-[140px] !rounded-[8px] tracking-[-2%] hidden text-center  '>
+					Resume
+				</div>
 			</div>
 
 			<div className='md:w-[50%] space-y-[24px] '>
-				<p className='text-[#505050] neue-reg md:text-[16px] md:leading-[28px] tracking-[-2%] text-[14px] leading-[22px]   '>
+				<p className='text-[#505050] neue-reg md:text-[16px] md:leading-[28px] tracking-[-1%] md:tracking-[-2%] text-[14px] leading-[24px]   '>
 					I started out as a meme enthusiast creating funny visuals when i
 					discovered Corel draw during my secondary school days. Overtime, i
 					ascended the ranks and evolved into a professional graphic designer.
 					My journey continued as i sojourned into presentation design and
 					ultimately found myself immersed in the captivating world of product
-					design. Currently, i am exploring motion design as a hobby. But,
-					beyond the world of design, i live a bubbly life and you’ll often
-					catch me binge watching movies and actively indulging my friends in
-					fun activities.
+					design.
+					{show ? (
+						<span>
+							Currently, i am exploring motion design as a hobby. But, beyond
+							the world of design, i live a bubbly life and you’ll often catch
+							me binge watching movies and actively indulging my friends in fun
+							activities.{" "}
+							 <span
+								className='text-black font-bold ml-[2px] '
+								onClick={() => {
+									setShow(false);
+								}}
+							>
+								{" "}show less
+							</span>
+						</span>
+					) : (
+						<span
+							className='text-black font-bold'
+							onClick={() => {
+								setShow(true);
+							}}
+						>
+							... More
+						</span>
+					)}
 				</p>
 				{/* <div className='border-[1px] border-[#e22] rounded-[24px] md:px-[20px] md:py-[10px] px-[24px] py-[10px] md:text-[18px] neue-md md:leading-[28px] md:tracking-[-0.54px] text-[#e22]  space-x-[8px] items-center inline-flex  md:hidden w-max '>
 					<p>Resume</p>
@@ -52,7 +78,9 @@ const About = () => {
 					</svg>
 				</div> */}
 
-				<div className='bg-gradient inline-block !px-[42px] md:hidden '>Resume</div>
+				<div className='bg-gradient !rounded-[8px]  inline-block !px-[42px] md:hidden '>
+					Resume
+				</div>
 			</div>
 		</div>
 	);

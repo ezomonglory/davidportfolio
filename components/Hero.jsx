@@ -33,7 +33,7 @@ const Hero = () => {
 				
 			</div>
 
-			<div className=' flex mb-[132px] '>			
+			<div className=' flex mb-[80px] md:mb-[132px] '>			
 			</div>
 		</div>
 	);
