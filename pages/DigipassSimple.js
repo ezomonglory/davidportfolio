@@ -26,12 +26,12 @@ const DigipassSimple = () => {
 			<div className='overflow-hidden md:pb-[100px] pb-[60px] '>
 				{/* <hr className='w-screen h-[1px] md:h-[1.5px] bg-[#D7D7D7] mt-[34px] ' /> */}
 				<div className='md:mx-[80px] mx-[16px] mt-[34px]  '>
-					<div className=' flex flex-col gap-[24px] md:mb-[14px]  md:gap-[60px]   '>
+					<div className=' flex flex-col gap-[24px] md:mb-[2p4px]  md:gap-[60px]   '>
 						<HeroTop />
 						<div className='md:mx-[60px] mx-[16px]  '>
 							<div className='flex flex-col  items-start justify-between '>
 								<div className='flex flex-col space-y-[24px] mb-[16px]  border-transparent border-b-[#D7D7D7] border-[1.5px] pb-[24px] w-full'>
-									<h1 className='text-black text-[30px] md:text-[46px] leading-[32px] md:leading-[54px] md:tracking-[-2.76px] libre-reg '>
+									<h1 className='text-black text-[30px] md:text-[46px] leading-[32px] md:leading-[54px] md:tracking-[-2px] libre-reg '>
 										{" "}
 										{project.name}{" "}
 									</h1>
@@ -42,21 +42,21 @@ const DigipassSimple = () => {
 									{redArrWeb}
 									{redArrMobile}
 								</div> */}
-								<div className='flex flex-col space-y-[4px] '>
+								<div className='flex flex-col space-y-[8px] '>
 									<div className='flex space-x-2 items-center'>
-										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-1.08px] libre-reg  '>
+										<h1 className=' text-[14px] leading-[20px] tracking-[-0.1px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Role:
 										</h1>
-										<p className='text-[#787878] text-[12px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
+										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											UI Designer, Researcher{" "}
 										</p>
 									</div>
 									<div className='flex space-x-2 items-center'>
-										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-1.08px] libre-reg  '>
+										<h1 className=' text-[14px] leading-[20px] tracking-[-0.1px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Deliverables:
 										</h1>
-										<p className='text-[#787878] text-[12px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
+										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											Dashboard Design, App Design{" "}
 										</p>

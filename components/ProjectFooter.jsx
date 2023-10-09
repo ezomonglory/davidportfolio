@@ -5,9 +5,9 @@ const ProjectFooter = ({ prev, next }) => {
 	const router = useRouter();
 
 	return (
-		<div className='flex justify-between items-center'>
+		<div className='flex justify-between items-center mt-[16px]'>
 			<div
-				className='flex space-x-[4px] items-center'
+				className='flex space-x-[8px] items-center'
 				onClick={() => {
 					router.push(`/${prev}`);
 				}}
@@ -28,13 +28,13 @@ const ProjectFooter = ({ prev, next }) => {
 						stroke-linejoin='round'
 					/>
 				</svg>
-				<h1 className='text-[#D7D7D7] md:leading-[28px] md:text-[18px] neue-md '>
+				<h1 className='text-[#D7D7D7] md:leading-[28px] md:text-[18px] neue-md tracking-[-0.5px] '>
 					Previous Project{" "}
 				</h1>
 			</div>
 
 			<div
-				className='flex space-x-[4px] items-center'
+				className='flex space-x-[8px] items-center'
 				onClick={() => {
 					router.push(`/${next}`);
 				}}
@@ -55,7 +55,7 @@ const ProjectFooter = ({ prev, next }) => {
 						stroke-linejoin='round'
 					/>
 				</svg>
-				<h1 className='text-[#212121] md:leading-[28px] md:text-[18px] neue-md '>
+				<h1 className='text-[#212121] md:leading-[28px] md:text-[18px] neue-md tracking-[-0.5px] '>
 					Next Project{" "}
 				</h1>
 			</div>
