@@ -17,7 +17,7 @@ const About = () => {
 			</div>
 
 			<div className='md:w-[50%] space-y-[24px] '>
-				<p className='text-[#505050] neue-reg md:text-[16px] md:leading-[28px] tracking-[-1%] md:tracking-[-0.5px] text-[14px] leading-[24px] mb-[8px]   '>
+				<p className='text-[#505050] neue-reg md:text-[16px] md:leading-[28px] tracking-[-1%] md:tracking-[-0.5px] text-[14px] leading-[24px] mb-[8px] flex items-end justify-end   '>
 					{/* I started out as a meme enthusiast creating funny visuals when i
 					discovered Corel draw during my secondary school days. Overtime, i
 					ascended the ranks and evolved into a professional graphic designer.
@@ -49,12 +49,21 @@ const About = () => {
 							... More
 						</span>
 					)} */}
-					My journey commenced as a meme enthusiast, where I <br className="" /> honed my creativity
-					using Corel Draw during secondary <br className="" /> school. Over time, I progressed into
-					a seasoned graphic  <br className="" />  designer, delving into presentation design. Today,  <br className="" /> 
-					I specialize in product design, continuously refining my <br className="" />  skills.My
-					latest exploration is in motion design, a passion  <br className="" /> I pursue alongside
-					my professional endeavors.
+					My journey commenced as a meme enthusiast, where I{" "}
+					<br className='md:hidden' /> honed my creativity{" "}
+					<br className='hidden md:block' />
+					using Corel Draw during secondary <br className='md:hidden' /> school.
+					Over time, I progressed into a
+					<br className='hidden md:block' />
+					seasoned graphic <br className='md:hidden' /> designer, delving into
+					presentation design. Today, <br className='md:hidden' />
+					I specialize
+					<br className='hidden md:block' />
+					in product design, continuously refining my{" "}
+					<br className='md:hidden' /> skills.My latest exploration is in
+					<br className='hidden md:block' />
+					motion design, a passion <br className='md:hidden' />I pursue
+					alongside my professional endeavors.
 				</p>
 				{/* <div className='border-[1px] border-[#e22] rounded-[24px] md:px-[20px] md:py-[10px] px-[24px] py-[10px] md:text-[18px] neue-md md:leading-[28px] md:tracking-[-0.54px] text-[#e22]  space-x-[8px] items-center inline-flex  md:hidden w-max '>
 					<p>Resume</p>
