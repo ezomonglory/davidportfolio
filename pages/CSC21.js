@@ -69,7 +69,7 @@ const CSC21 = () => {
 								heading='Overview'
 								text='I came up with an idea to create a digital experience for my class where we had a website that housed our memories in form of pictures and videos and luckily, it synced with the fact that it was my final academic year in school and there was a list of activities they had planned for the final year week otherwise known as FYB Week.'
 							/>
-							<div className='bg-gradient !p-0 !py-[10px] !px-[20px] tracking-[-0.01px] md:tracking-normal  w-[160px] text-center cursor-pointer '>
+								<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Site
 							</div>
 						</div>
@@ -86,13 +86,13 @@ const CSC21 = () => {
 								heading='Design Preview'
 								text='Note: Visit the website to get the full experience'
 							/>
-							<div className='bg-gradient !p-0 !py-[10px] !px-[20px] tracking-[-0.01px] md:tracking-normal  w-[160px] text-center cursor-pointer '>
+							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Site
 							</div>
 						</div>
 
 						<div>
-							<h1 className='text-[#212121] neue-md md:text-[24px] mb-[12px] md:leading-[32px] md:tracking-[-0.5px] '>
+							<h1 className='text-[#212121] text-[20px] neue-md md:text-[24px] mb-[12px] md:leading-[32px] md:tracking-[-0.5px] '>
 								Collaborators
 							</h1>
 

@@ -73,7 +73,7 @@ const AttendX = () => {
                             In as much as this method is a means to an end, it can be easily manipulated by students and time consuming for lecturers to ensure that the attendance is free from such manipulation after each class.
                             This system was developed by my course mate for his final year project, and I collaborated as a designer. The timeline was very short so we had to work at a fast pace.'
 							/>
-							<div className='bg-gradient !p-0 !py-[10px] !px-[20px] tracking-[-0.01px] md:tracking-normal  w-[160px] text-center cursor-pointer '>
+								<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[160px] h-[52px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Dashboard
 							</div>
 						</div>

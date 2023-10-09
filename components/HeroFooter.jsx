@@ -9,7 +9,7 @@ const HeroFooter = () => {
 				you can reach me via <br className="md:hidden" /> dayviid02@gmail.com
 			</p>
 
-			<div className='bg-gradient font-[18px] !rounded-[8px] h-[48px] leading-[28px] tracking-[-0.5px] '>Contact me</div>
+			<div className='bg-gradient font-[18px] !rounded-[8px] h-[48px] flex items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] '>Contact me</div>
 		</div>
 	);
 };

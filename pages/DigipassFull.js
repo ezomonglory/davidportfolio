@@ -224,7 +224,7 @@ const DigipassFull = () => {
 							<ProjectText text="Additionally, the mobile authenticator can be integrated with a campus portal to retrieve students' details directly. This integration ensures that the card's information is always up-to-date, reflecting any changes made by students through their portal accounts. As part of my project, we developed a basic dashboard to demonstrate how this system is intended to function." />
 						</div>
 						<div className="!md:mt-[64px] !mt-[48px] " >
-							<ProjectFooter next="/AttendX"  />
+							<ProjectFooter prev="null" next="/AttendX"  />
 						</div>
 					</div>
 				</div>

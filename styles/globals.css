@@ -98,9 +98,8 @@
 
 .bg-gradient {
 	background: var(--mine, linear-gradient(180deg, #ff6c1a 0%, #ff443e 100%));
-	color: white;
-	padding: 10px 24px;
-	border-radius: 4px;
+	color: white;	
+	border-radius: 8px;
     
 }
 
