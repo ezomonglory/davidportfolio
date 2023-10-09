@@ -17,9 +17,9 @@ const ID = ({ project }) => {
 				<div className='md:mx-[80px] mx-[16px] mt-[34px]  '>
 					<div className=' flex flex-col gap-[24px] md:mb-[80px]  md:gap-[60px]   '>
 						<HeroTop />
-						<div className='md:mx-[60px] mx-[16px]  '>
+						<div className='md:mx-[60px]   '>
 							<div className='flex flex-col  items-start justify-between '>
-								<div className='flex flex-col space-y-[24px] mb-[16px]  border-transparent border-b-[#D7D7D7] border-[1.5px] pb-[24px] w-full'>
+								<div className='flex flex-col space-y-[24px] mb-[16px]  border-transparent border-b-[#D7D7D7] border-[1.5px] pb-[16px] md:pb-[24px] w-full'>
 									<h1 className='text-black text-[30px] md:text-[46px] leading-[32px] md:leading-[54px] md:tracking-[-2.76px] libre-reg '>
 										{" "}
 										{project.name}{" "}

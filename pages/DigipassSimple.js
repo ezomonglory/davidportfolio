@@ -28,23 +28,19 @@ const DigipassSimple = () => {
 				<div className='md:mx-[80px] mx-[16px] mt-[34px]  '>
 					<div className=' flex flex-col gap-[24px] md:mb-[2p4px]  md:gap-[60px]   '>
 						<HeroTop />
-						<div className='md:mx-[60px] mx-[16px]  '>
-							<div className='flex flex-col  items-start justify-between '>
-								<div className='flex flex-col space-y-[24px] mb-[16px]  border-transparent border-b-[#D7D7D7] border-[1.5px] pb-[24px] w-full'>
-									<h1 className='text-black text-[30px] md:text-[46px] leading-[32px] md:leading-[54px] md:tracking-[-2px] libre-reg '>
+						<div className='md:mx-[60px]   '>
+							<div className='flex flex-col  items-start justify-between space-y-[8px] md:space-y-0 '>
+								<div className='flex flex-col space-y-[24px] mb-[16px]  border-transparent border-b-[#D7D7D7] border-[1.5px] pb-[16px] md:pb-[24px] w-full'>
+									<h1 className='text-black text-[38px] md:text-[46px] leading-[46px] md:leading-[54px] tracking-[-2px] libre-reg '>
 										{" "}
 										{project.name}{" "}
 									</h1>
 								</div>
 
-								{/* <div className='border-[1px] border-[#e22] rounded-[24px] md:px-[20px] md:py-[10px] px-[24px] py-[10px] md:text-[18px] neue-md md:leading-[28px] md:tracking-[-0.54px] text-[#e22]  space-x-[8px] items-center hidden md:flex w-max  '>
-									<p>Vist Site</p>
-									{redArrWeb}
-									{redArrMobile}
-								</div> */}
-								<div className='flex flex-col space-y-[8px] '>
+								
+								<div className='flex flex-col space-y-[4px] md:space-y-[8px] '>
 									<div className='flex space-x-2 items-center'>
-										<h1 className=' text-[14px] leading-[20px] tracking-[-0.1px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
+										<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Role:
 										</h1>
 										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
@@ -53,7 +49,7 @@ const DigipassSimple = () => {
 										</p>
 									</div>
 									<div className='flex space-x-2 items-center'>
-										<h1 className=' text-[14px] leading-[20px] tracking-[-0.1px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
+												<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Deliverables:
 										</h1>
 										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
@@ -72,7 +68,7 @@ const DigipassSimple = () => {
 							</div>
 						</div>
 					</div>
-					<div className='md:mx-[60px] flex flex-col space-y-[48px] '>
+					<div className='md:mx-[60px] flex flex-col space-y-[40px] md:space-y-[48px] '>
 						<div className='   rounded-[2px]  my-[20px]  '>
 							<img src='/DigiPass Web.png' alt='dd' className='w-full' />
 						</div>
@@ -98,7 +94,7 @@ const DigipassSimple = () => {
 							/>
 						</div>
 
-						<div className='flex flex-col space-y-[16px]'>
+						<div className='flex flex-col space-y-[8px] md:space-y-[16px]'>
 							<ProjectText
 								heading='Approaching The Problem'
 								text="Based on the insights I gathered, I formulated the project's goal, which is to enhance the methods of student identification during examinations within my department."
@@ -184,8 +180,8 @@ const DigipassSimple = () => {
 							</div>
 						</div>
 
-						<div className="!mt-[64px]" >
-							<ProjectFooter />
+						<div className="!md:mt-[64px] !mt-[48px] " >
+							<ProjectFooter prev="null" next="/AttendX" />
 						</div>
 					</div>
 				</div>
