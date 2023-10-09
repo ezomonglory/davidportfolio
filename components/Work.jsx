@@ -26,7 +26,7 @@ const Work = () => {
                     </div> */}
 					<img className='w-full h-full' src={`${work.image}`} />
 					<div>
-						<h1 className='text-[20px] neue-md leading-[28px] mtracking-[-2%]  text-[#212121]  '>
+						<h1 className='text-[20px] neue-md leading-[28px] tracking-[-0.5px]  text-[#212121]  '>
 							{work.name}
 						</h1>
 

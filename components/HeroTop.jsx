@@ -32,11 +32,11 @@ const HeroTop = () => {
 	return (
 		<div className='flex justify-between p-[4px] '>
 			{pathname === "/" ? (
-				<h1 className='neue-md md:text-[18px] text-[16px] leading-[24px] tracking-[-2%] md:leading-[28px] md:tracking-[-0.36px]   '>
+				<h1 className='neue-md md:text-[18px] text-[16px] leading-[24px] tracking-[-0.5px] md:leading-[28px] md:tracking-[-0.36px]   '>
 					David Otu
 				</h1>
 			) : (
-				<h1 className='neue-md md:text-[18px] text-[16px] leading-[24px] tracking-[-2%] md:leading-[28px] md:tracking-[-0.36px] text-gradient cursor-pointer  '
+				<h1 className='neue-md md:text-[18px] text-[16px] leading-[24px] tracking-[-0.5px] md:leading-[28px] md:tracking-[-0.36px] text-gradient cursor-pointer  '
                 onClick={()=> {
                     router.push("/")
                 }}
@@ -45,12 +45,12 @@ const HeroTop = () => {
 				</h1>
 			)}
 
-			<div className='flex order-1 items-center space-x-[2px] md:space-x-[8px] '>
-				<p className='md:leading-[28px] md:tracking-[-0.18px] text-[14px]  tracking-[0.14px] md:text-[18px] text-[#000] order-1'>
+			<div className='flex order-1 items-center space-x-[6px] md:space-x-[8px] '>
+				<p className='md:leading-[28px] md:tracking-[-0.18px] neue-md text-[16px] leading-[24px]  tracking-[-0.5px] md:text-[18px] text-[#000] order-1'>
 					{date?.getHours()}:{Minutes()}{" "}
 				</p>
 
-				<p className='text-[#787878] text-[14px] tracking-[-0.14px] neue-reg md:text-[18px] md:leading-[28px] md:tracking-[-0.18px] order-2 '>
+				<p className='text-[#787878] text-[16px] tracking-[-0.5px] leading-[24px] neue-reg md:text-[18px] md:leading-[28px] md:tracking-[-0.18px] neue-md order-2 '>
 					Lagos,NG
 				</p>
 			</div>

@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<div className='flex flex-col  justify-between  md:flex-row mx-[16px] md:mx-[70px] border-[1px] md:border-t-[#D7D7D7] border-transparent md:pt-[40px] md:mt-[56px] mt-[20px] pt-[32px]  '>
 			<div className='md:w-[50%] flex space-y-[24px]  flex-col w-full  '>
-				<h1 className='text-[#212121] neue-md text-[30px] leading-[36px]  md:text-[46px] md:leading-[50px] tracking-[-3%]  mb-[8px]  '>
+				<h1 className='text-[#212121] neue-md text-[30px] leading-[36px]  md:text-[46px] md:leading-[50px] tracking-[-1px]  mb-[8px]  '>
 					Hi there, <br />
 					i’m David Otu
 				</h1>
@@ -49,11 +49,11 @@ const About = () => {
 							... More
 						</span>
 					)} */}
-					My journey commenced as a meme enthusiast, where I honed my creativity
-					using Corel Draw during secondary school. Over time, I progressed into
-					a seasoned graphic designer, delving into presentation design. Today,
-					I specialize in product design, continuously refining my skills.My
-					latest exploration is in motion design, a passion I pursue alongside
+					My journey commenced as a meme enthusiast, where I <br className="md:hidden" /> honed my creativity
+					using Corel Draw during secondary <br className="md:hidden" /> school. Over time, I progressed into
+					a seasoned graphic  <br className="md:hidden" />  designer, delving into presentation design. Today,  <br className="md:hidden" /> 
+					I specialize in product design, continuously refining my <br className="md:hidden" />  skills.My
+					latest exploration is in motion design, a passion  <br className="md:hidden" /> I pursue alongside
 					my professional endeavors.
 				</p>
 				{/* <div className='border-[1px] border-[#e22] rounded-[24px] md:px-[20px] md:py-[10px] px-[24px] py-[10px] md:text-[18px] neue-md md:leading-[28px] md:tracking-[-0.54px] text-[#e22]  space-x-[8px] items-center inline-flex  md:hidden w-max '>
@@ -84,7 +84,7 @@ const About = () => {
 					</svg>
 				</div> */}
 
-				<div className='bg-gradient !rounded-[8px]  inline-block !px-[42px] md:hidden '>
+				<div className='bg-gradient !rounded-[8px] tracking-[-0.5px]  inline-block !px-[42px] md:hidden '>
 					Resume
 				</div>
 			</div>
