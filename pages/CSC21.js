@@ -30,37 +30,36 @@ const CSC21 = () => {
 						<div className='md:mx-[60px]   '>
 							<div className='flex flex-col  items-start justify-between '>
 								<div className='flex flex-col space-y-[24px] mb-[16px]  border-transparent border-b-[#D7D7D7] border-[1.5px] pb-[16px] md:pb-[24px] w-full'>
-                                <h1 className='text-black text-[38px] md:text-[46px] leading-[46px] md:leading-[54px] tracking-[-2px] libre-reg '>
+									<h1 className='text-black text-[38px] md:text-[46px] leading-[46px] md:leading-[54px] tracking-[-2px] libre-reg '>
 										{" "}
 										{project.name}{" "}
 									</h1>
 								</div>
-								
+
 								<div className='flex flex-col space-y-[4px] '>
 									<div className='flex space-x-2 items-center'>
-											<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
+										<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Role:
 										</h1>
-										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
+										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											UI Designer{" "}
 										</p>
 									</div>
 									<div className='flex space-x-2 items-center'>
-											<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
+										<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Deliverables:
 										</h1>
-										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
+										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											Website design{" "}
 										</p>
 									</div>
 								</div>
-								
 							</div>
 						</div>
 					</div>
-					<div className='md:mx-[60px] flex flex-col space-y-[48px] '>
+					<div className='md:mx-[60px] flex flex-col space-y-[40px]  md:space-y-[48px] '>
 						<div className='   bg-[#D9D9D9] rounded-[2px]  my-[20px]  '>
 							<img src='/CSC Web.png' alt='dd' className='w-full' />
 						</div>
@@ -70,7 +69,7 @@ const CSC21 = () => {
 								heading='Overview'
 								text='I came up with an idea to create a digital experience for my class where we had a website that housed our memories in form of pictures and videos and luckily, it synced with the fact that it was my final academic year in school and there was a list of activities they had planned for the final year week otherwise known as FYB Week.'
 							/>
-							<div className='bg-gradient w-[160px] text-center cursor-pointer '>
+							<div className='bg-gradient !p-0 !py-[10px] !px-[20px] tracking-[-0.01px] md:tracking-normal  w-[160px] text-center cursor-pointer '>
 								View Site
 							</div>
 						</div>
@@ -87,12 +86,12 @@ const CSC21 = () => {
 								heading='Design Preview'
 								text='Note: Visit the website to get the full experience'
 							/>
-							<div className='bg-gradient w-[160px] text-center cursor-pointer '>
+							<div className='bg-gradient !p-0 !py-[10px] !px-[20px] tracking-[-0.01px] md:tracking-normal  w-[160px] text-center cursor-pointer '>
 								View Site
 							</div>
 						</div>
 
-						<div  >
+						<div>
 							<h1 className='text-[#212121] neue-md md:text-[24px] mb-[12px] md:leading-[32px] md:tracking-[-0.5px] '>
 								Collaborators
 							</h1>
@@ -114,8 +113,8 @@ const CSC21 = () => {
 							</p>
 						</div>
 
-						<div className="!mt-[64px]" >
-							<ProjectFooter next="null" prev="/EzomonGlory" />
+						<div className='!md:mt-[64px] !mt-[48px]'>
+							<ProjectFooter next='null' prev='/EzomonGlory' />
 						</div>
 					</div>
 				</div>

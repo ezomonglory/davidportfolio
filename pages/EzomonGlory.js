@@ -28,7 +28,7 @@ const EzomonGlory = () => {
 					<div className=' flex flex-col gap-[24px] md:mb-[14px]  md:gap-[60px]   '>
 						<HeroTop />
 						<div className='md:mx-[60px]   '>
-							<div className='flex flex-col  items-start justify-between '>
+							<div className='flex flex-col  items-start justify-between space-y-[8px] md:space-y-0 '>
 								<div className='flex flex-col space-y-[24px] mb-[16px]  border-transparent border-b-[#D7D7D7] border-[1.5px] pb-[16px] md:pb-[24px] w-full'>
 									<h1 className='text-black text-[38px] md:text-[46px] leading-[46px] md:leading-[54px] tracking-[-2px] libre-reg '>
 										{" "}
@@ -41,7 +41,7 @@ const EzomonGlory = () => {
 												<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Role:
 										</h1>
-										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
+										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											UI Designer{" "}
 										</p>
@@ -50,7 +50,7 @@ const EzomonGlory = () => {
 												<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Deliverables:
 										</h1>
-										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
+										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											Website design{" "}
 										</p>
@@ -59,7 +59,7 @@ const EzomonGlory = () => {
 							</div>
 						</div>
 					</div>
-					<div className='md:mx-[60px] flex flex-col space-y-[48px] '>
+					<div className='md:mx-[60px] flex flex-col space-y-[40px] md:space-y-[48px] '>
 						<div className='   bg-[#D9D9D9] rounded-[2px]  my-[20px]  '>
 							<img src='/Ezomon Glory.png' alt='dd' className='w-full' />
 						</div>
@@ -97,7 +97,7 @@ const EzomonGlory = () => {
 							</div>
 						</div>
 
-						<div className="!mt-[64px]" >
+						<div className="!md:mt-[64px] !mt-[48px]" >
 							<ProjectFooter prev="/AttendX" next="/CSC21" />
 						</div>
 					</div>

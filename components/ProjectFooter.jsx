@@ -24,19 +24,19 @@ const ProjectFooter = ({ prev, next }) => {
 							cx='12'
 							cy='12'
 							r='10'
-							stroke='url(#paint0_linear_318_1432)'
+							stroke='url(#paint0_linear_318_1427)'
 							stroke-width='1.5'
 						/>
 						<path
-							d='M9 15L15 9M15 9H10.5M15 9V13.5'
-							stroke='url(#paint1_linear_318_1432)'
+							d='M15 15L9 9M9 9H13.5M9 9V13.5'
+							stroke='url(#paint1_linear_318_1427)'
 							stroke-width='1.5'
 							stroke-linecap='round'
 							stroke-linejoin='round'
 						/>
 						<defs>
 							<linearGradient
-								id='paint0_linear_318_1432'
+								id='paint0_linear_318_1427'
 								x1='12'
 								y1='2'
 								x2='12'
@@ -47,7 +47,7 @@ const ProjectFooter = ({ prev, next }) => {
 								<stop offset='1' stop-color='#FF443E' />
 							</linearGradient>
 							<linearGradient
-								id='paint1_linear_318_1432'
+								id='paint1_linear_318_1427'
 								x1='12'
 								y1='9'
 								x2='12'

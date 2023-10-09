@@ -43,7 +43,7 @@ const DigipassSimple = () => {
 										<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Role:
 										</h1>
-										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
+										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											UI Designer, Researcher{" "}
 										</p>
@@ -52,7 +52,7 @@ const DigipassSimple = () => {
 												<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Deliverables:
 										</h1>
-										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
+										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											Dashboard Design, App Design{" "}
 										</p>

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
@@ -39,28 +40,28 @@ const AttendX = () => {
 
 								<div className='flex flex-col space-y-[4px] '>
 									<div className='flex space-x-2 items-center'>
-												<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
+										<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Role:
 										</h1>
-										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
+										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
 											UI Designer, Researcher{" "}
 										</p>
 									</div>
 									<div className='flex space-x-2 items-center'>
-												<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
-											Duration:
+										<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
+											Deliverables:
 										</h1>
-										<p className='text-[#212121] text-[12px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
+										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
-											2 Month{" "}
+											Design Dashboard{" "}
 										</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div className='md:mx-[60px] flex flex-col space-y-[48px] '>
+					<div className='md:mx-[60px] flex flex-col space-y-[40px] md:space-y-[48px] '>
 						<div className='   bg-[#D9D9D9] rounded-[2px]  my-[20px]  '>
 							<img src='/AttendX Web.png' alt='dd' className='w-full' />
 						</div>
@@ -72,8 +73,8 @@ const AttendX = () => {
                             In as much as this method is a means to an end, it can be easily manipulated by students and time consuming for lecturers to ensure that the attendance is free from such manipulation after each class.
                             This system was developed by my course mate for his final year project, and I collaborated as a designer. The timeline was very short so we had to work at a fast pace.'
 							/>
-							<div className='bg-gradient w-[160px] text-center cursor-pointer '>
-								Live Dashboard
+							<div className='bg-gradient !p-0 !py-[10px] !px-[20px] tracking-[-0.01px] md:tracking-normal  w-[160px] text-center cursor-pointer '>
+								View Dashboard
 							</div>
 						</div>
 
@@ -84,7 +85,7 @@ const AttendX = () => {
 							/>
 						</div>
 
-						<div className='flex flex-col space-y-[16px]'>
+						<div className='flex flex-col space-y-[8px] md:space-y-[16px]'>
 							<ProjectText
 								heading='Getting Started'
 								text='I started by analyzing the system architecture and activity diagram, to get a visual interpretation of the flow which provided information on the type of users i was to design for. The design caters for two users:'
@@ -170,8 +171,8 @@ const AttendX = () => {
 							</div>
 						</div>
 
-						<div className="!mt-[64px]" >
-							<ProjectFooter prev="/DigipassSimple" next="EzomonGlory" />
+						<div className='!mt-[64px]'>
+							<ProjectFooter prev='/DigipassSimple' next='EzomonGlory' />
 						</div>
 					</div>
 				</div>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 
@@ -46,7 +47,7 @@ const DigipassFull = () => {
 										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-0.5px] neue-md  '>
 											Role:
 										</h1>
-										<p className='text-[#787878] text-[12px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
+										<p className='text-[#787878] text-[16px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
 											{" "}
 											UI Designer, Researcher{" "}
 										</p>
@@ -55,7 +56,7 @@ const DigipassFull = () => {
 										<h1 className=' text-[14px] leading-[20px] tracking-[-0.6px] md:text-[18px] text-black md:leading-[28px] md:tracking-[-0.5px] neue-md  '>
 											Deliverables:
 										</h1>
-										<p className='text-[#787878] text-[12px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
+										<p className='text-[#787878] text-[16px] leading-[22px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.16px]  '>
 											{" "}
 											Dashboard Design, App Design{" "}
 										</p>
@@ -64,7 +65,7 @@ const DigipassFull = () => {
 							</div>
 						</div>
 					</div>
-					<div className='md:mx-[60px] flex flex-col space-y-[48px] '>
+					<div className='md:mx-[60px] flex flex-col md:space-y-[48px] space-y-[40px] '>
 						<div className='   rounded-[2px]  my-[20px]  '>
 							<img src='/DigiPass Web.png' alt='dd' className='w-full' />
 						</div>
@@ -83,7 +84,7 @@ const DigipassFull = () => {
 							/>
 						</div>
 
-						<div className='flex flex-col space-y-[16px]'>
+						<div className='flex flex-col space-y-[8px] md:space-y-[16px]'>
 							<ProjectText
 								heading='Research'
 								text='Being fortunate to have access to past examination passes used in previous academic sessions allowed me to carefully study and analyze them. After studying the examination passes and drafting my observations, I conducted interviews with departmental lecturers to clarify and verify the information gathered through my observation. I was able to gather valuable insights regarding the process. While the confidentiality of the interview details is essential, several key findings emerged:'
@@ -113,7 +114,7 @@ const DigipassFull = () => {
 							/>
 						</div>
 
-						<div className='flex flex-col space-y-[16px]'>
+						<div className='flex flex-col space-y-[8px] md:space-y-[16px]'>
 							<ProjectText
 								heading='Approaching The Problem'
 								text='During the brainstorming phase, I collaborated with a peer who offered valuable insight on approaching the problem. He suggested leveraging on Near Field Communication (NFC) technology, highlighting its successful applications in various countries as a secure means of payment and its current implementation within the transportation sector in Nigeria (Lagos State specifically). While other ideas emerged during our brainstorming session, I had to consider certain factors like implementation time and cost.'
@@ -222,7 +223,7 @@ const DigipassFull = () => {
 
 							<ProjectText text="Additionally, the mobile authenticator can be integrated with a campus portal to retrieve students' details directly. This integration ensures that the card's information is always up-to-date, reflecting any changes made by students through their portal accounts. As part of my project, we developed a basic dashboard to demonstrate how this system is intended to function." />
 						</div>
-						<div className="!mt-[64px]" >
+						<div className="!md:mt-[64px] !mt-[48px] " >
 							<ProjectFooter next="/AttendX"  />
 						</div>
 					</div>

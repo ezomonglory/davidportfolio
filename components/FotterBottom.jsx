@@ -2,10 +2,13 @@ import React, { useEffect, useState } from "react";
 import { ArrowTopSvg, behanceSvg, igSvg, linkeinsvg } from "../data";
 
 const FotterBottom = () => {
-	const [location, setLocation] = useState();
+	const [location, setLocation] = useState(true);
 	useEffect(() => {
-		let location = window.location.href !== "/";
-		setLocation(location);
+        console.log(window.location.pathname)
+        console.log(window.location.hostname)
+		if (window.location.pathname === "/") {
+			setLocation(false);
+		}
 	});
 
 	const [isVisible, setIsVisible] = useState(false);
@@ -69,8 +72,8 @@ const FotterBottom = () => {
 							: "hidden fixed bottom-[60px] right-[40px] animate-bounce"
 					}`}
 					onClick={() => {
-                        scrollToTop()
-                    }}
+						scrollToTop();
+					}}
 				>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
