@@ -95,7 +95,7 @@ const AttendX = () => {
 								<ProjectText 
                                 text="1. The lecturer whose role was to generate the QR code, and
                                 keep track of attendance"
-                                />>
+                                />
 								<ProjectText
                                 text="	2. The student whose role was to scan the QR code generated to
                                 validate attendance."
