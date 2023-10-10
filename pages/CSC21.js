@@ -74,12 +74,12 @@ const CSC21 = () => {
 							</div>
 						</div>
 
-						<div className=''>
+						{/* <div className=''>
 							<ProjectText
 								heading='The Concept'
 								text='The idea was aimed at preserving the memories of the last days spent together with the website serving as an archive of some sort. To realize this idea, I collaborated with individuals from various fields ranging from web development to brand designing, photography and project management. The initial idea was to have just a gallery section where pictures were featured but we decided to improve the experience by adding a yearbook section, which included pictures taken by the photographers I collaborated with. These pictures were captioned by quotes filled by my course mates.'
 							/>
-						</div>
+						</div> */}
 
 						<div className="flex flex-col space-y-[16px] md:space-y-[24px]" >
 							<ProjectText heading='Interface Design' />
