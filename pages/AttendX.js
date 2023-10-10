@@ -54,7 +54,7 @@ const AttendX = () => {
 										</h1>
 										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
-											 Dashboard Design{" "}
+											Dashboard Design{" "}
 										</p>
 									</div>
 								</div>
@@ -73,7 +73,7 @@ const AttendX = () => {
                             In as much as this method is a means to an end, it can be easily manipulated by students and time consuming for lecturers to ensure that the attendance is free from such manipulation after each class.
                             This system was developed by my course mate for his final year project, and I collaborated as a designer. The timeline was very short so we had to work at a fast pace.'
 							/>
-								<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[160px] h-[52px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
+							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[160px] h-[52px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Dashboard
 							</div>
 						</div>
@@ -91,15 +91,15 @@ const AttendX = () => {
 								text='I started by analyzing the system architecture and activity diagram, to get a visual interpretation of the flow which provided information on the type of users i was to design for. The design caters for two users:'
 							/>
 							<ol>
-								<li className='text-[#646464]'>
+								<p className='text-[#646464]'>
 									{" "}
 									1. The lecturer whose role was to generate the QR code, and
 									keep track of attendance
-								</li>
-								<li className='text-[#646464]'>
+								</p>
+								<p className='text-[#646464]'>
 									2. The student whose role was to scan the QR code generated to
 									validate attendance.
-								</li>
+								</p>
 							</ol>
 
 							<ProjectText text='Next, I gathered mood boards on data representation, color and layout. Afterward I moved to sketching out ideas. Having a lot of physical contact with the project’s owner helped a lot and we were able to move faster by sticking to sketching and making iterations on paper first before proceeding to designing the User Interface.' />
@@ -111,12 +111,10 @@ const AttendX = () => {
 								text='Please refer to the video below for a visual demonstration of how the system works.'
 							/>
 
-                            
-
 							<div>
 								<div className=' bg-[#D9D9D9] rounded-[2px]  w-full video-container   '>
-                                    <video src="/AttendX.mp4" controls  ></video>
-                                </div>
+									<video src='/ATTENDX.mp4' controls type='video/mp4' ></video>
+								</div>
 								<h1 className='neue-reg text-[#646464] neue-md mt-[16px] '>
 									Scanning the QR-Code to mark attendance
 								</h1>

@@ -61,7 +61,7 @@ const DigipassSimple = () => {
 
 								<Link
 									href='/DigipassFull'
-									className='text-gradient leading-[28px] neue-md cursor-pointer font-[500] mt-[12px] '
+									className='text-gradient leading-[28px] neue-md cursor-pointer font-[500] mt-[24px] '
 								>
 									View Full Case Study
 								</Link>

@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<div className='flex flex-col  justify-between  md:flex-row mx-[16px] md:mx-[70px] border-[1px] md:border-t-[#D7D7D7] border-transparent md:pt-[40px] md:mt-[56px] mt-[20px] pt-[32px]  '>
 			<div className='md:w-[50%] flex space-y-[24px]  flex-col w-full  '>
-				<h1 className='text-[#212121] neue-md  text-[46px] md:leading-[50px]   mb-[8px]  '>
+				<h1 className='text-[#212121] neue-md tracking-[-1px] text-[30px] md:text-[46px] leading-[34px] md:leading-[50px]   mb-[8px]  '>
 					Hi there, <br />
 					i’m David Otu
 				</h1>
@@ -60,8 +60,7 @@ const About = () => {
 					<br className='md:hidden' />{" "}
 					<span className='!mt-[8px] inline-block  md:mt-0 '>
 						{" "}
-						Today, I specialize
-						<br className='hidden md:block' />
+						Today, I specialize {" "}						
 						in product design, continuously refining{" "}
 						<br className='md:hidden' /> my skills.My latest exploration is in
 						<br className='hidden md:block' />
