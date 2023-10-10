@@ -26,7 +26,7 @@ const DigipassFull = () => {
 			<div className='overflow-hidden md:pb-[24px] pb-[24px] '>
 				{/* <hr className='w-screen h-[1px] md:h-[1.5px] bg-[#D7D7D7] mt-[34px] ' /> */}
 				<div className='md:mx-[80px] mx-[16px] mt-[34px]   '>
-					<div className=' flex flex-col gap-[24px] md:mb-[14px]  md:gap-[60px]   '>
+					<div className=' flex flex-col gap-[48px] md:mb-[14px]  md:gap-[60px]   '>
 						<HeroTop />
 						<div className='md:mx-[60px]   '>
 							<div className='flex flex-col  items-start justify-between '>

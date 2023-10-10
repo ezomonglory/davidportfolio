@@ -11,7 +11,9 @@ const About = () => {
 					i’m David Otu
 				</h1>
 
-				<div className='bg-gradient font-[18px] !rounded-[8px] h-[48px]  items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] hidden md:flex'>Resume</div>
+				<div className='bg-gradient font-[18px] !rounded-[8px] h-[48px]  items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] hidden md:flex'>
+					Resume
+				</div>
 			</div>
 
 			<div className='md:w-[50%] space-y-[24px] '>
@@ -91,7 +93,9 @@ const About = () => {
 					</svg>
 				</div> */}
 
-<div className='bg-gradient font-[18px] !rounded-[8px] h-[48px]  items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] flex md:hidde '>Resume</div>
+            <div className='bg-gradient font-[18px] !rounded-[8px] h-[48px]  items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] flex md:hidden '>
+					Resume
+				</div>
 			</div>
 		</div>
 	);

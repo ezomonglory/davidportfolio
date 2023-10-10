@@ -158,6 +158,11 @@ const FotterBottom = () => {
 					height='47'
 					viewBox='0 0 44 47'
 					fill='none'
+                    className="cursor-pointer"
+
+                    onClick={()=> {
+                        scrollToTop()
+                    }}
 				>
 					<g filter='url(#filter0_d_209_2627)'>
 						<circle

@@ -27,7 +27,7 @@ const AttendX = () => {
 			<div className='overflow-hidden md:pb-[24px] pb-[60px] '>
 				{/* <hr className='w-screen h-[1px] md:h-[1.5px] bg-[#D7D7D7] mt-[34px] ' /> */}
 				<div className='md:mx-[80px] mx-[16px] mt-[34px]  '>
-					<div className=' flex flex-col gap-[24px] md:mb-[14px]  md:gap-[60px]   '>
+					<div className=' flex flex-col gap-[48px] md:mb-[14px]  md:gap-[60px]   '>
 						<HeroTop />
 						<div className='md:mx-[60px]   '>
 							<div className='flex flex-col  items-start justify-between '>
@@ -111,8 +111,12 @@ const AttendX = () => {
 								text='Please refer to the video below for a visual demonstration of how the system works.'
 							/>
 
+                            
+
 							<div>
-								<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px] w-full   '></div>
+								<div className=' bg-[#D9D9D9] rounded-[2px]  w-full video-container   '>
+                                    <video src="/AttendX.mp4" controls  ></video>
+                                </div>
 								<h1 className='neue-reg text-[#646464] neue-md mt-[16px] '>
 									Scanning the QR-Code to mark attendance
 								</h1>

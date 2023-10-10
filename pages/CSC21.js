@@ -25,7 +25,7 @@ const CSC21 = () => {
 			<div className='overflow-hidden md:pb-[40px] pb-[10px] '>
 				{/* <hr className='w-screen h-[1px] md:h-[1.5px] bg-[#D7D7D7] mt-[34px] ' /> */}
 				<div className='md:mx-[80px] mx-[16px] mt-[34px]  '>
-					<div className=' flex flex-col gap-[24px] md:mb-[14px]  md:gap-[60px]   '>
+					<div className=' flex flex-col gap-[48px] md:mb-[14px]  md:gap-[60px]   '>
 						<HeroTop />
 						<div className='md:mx-[60px]   '>
 							<div className='flex flex-col  items-start justify-between '>
@@ -69,7 +69,7 @@ const CSC21 = () => {
 								heading='Overview'
 								text='I came up with an idea to create a digital experience for my class where we had a website that housed our memories in form of pictures and videos and luckily, it synced with the fact that it was my final academic year in school and there was a list of activities they had planned for the final year week otherwise known as FYB Week.'
 							/>
-								<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
+							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Site
 							</div>
 						</div>
@@ -81,12 +81,16 @@ const CSC21 = () => {
 							/>
 						</div>
 
-						<div className='flex flex-col space-y-[16px]'>
-							<ProjectText
-								heading='Design Preview'
-								text='Note: Visit the website to get the full experience'
-							/>
-							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
+						<div className='flex flex-col space-y-[8px] md:space-y-[16px]'>
+							<ProjectText heading='Design Preview' />
+
+							<div className='w-full video-container bg-gray-200'>
+								<video src='/CSC WEBSITE.mp4' controls type="video/mp4"  ></video>
+							</div>
+
+							<ProjectText text='Note: Visit the website to get the full experience' />
+
+							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer mt-[8px] md:mt-[16px] '>
 								View Site
 							</div>
 						</div>

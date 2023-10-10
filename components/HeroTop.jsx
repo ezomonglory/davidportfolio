@@ -20,6 +20,18 @@ const HeroTop = () => {
 		}
 	};
 
+    const Hours = () => {
+		if (date) {
+			const minute = date.getHours();
+			const string = minute.toString();
+			if (string.length === 1) {
+				return `0${string}`;
+			} else {
+				return string;
+			}
+		}
+	};
+
 	useEffect(() => {
 		setPathname(window.location.pathname);
 		setInterval(() => {
@@ -47,7 +59,7 @@ const HeroTop = () => {
 
 			<div className='flex order-1 items-center space-x-[8px] md:space-x-[8px] '>
 				<p className='md:leading-[28px] md:tracking-[-0.5px] neue-md text-[16px] leading-[24px]  tracking-[-0.5px] md:text-[18px] text-[#000] order-1'>
-					{date?.getHours()}:{Minutes()}{" "}
+					{Hours()}:{Minutes()}{" "}
 				</p>
 
 				<p className='text-[#787878] text-[16px] tracking-[-0.5px] leading-[24px] neue-reg md:text-[18px] md:leading-[28px] md:tracking-[-0.5px] neue-md order-2 '>
