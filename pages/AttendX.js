@@ -67,12 +67,31 @@ const AttendX = () => {
 						</div>
 
 						<div className='  flex flex-col space-y-[16px] md:space-y-[32px] '>
-							<ProjectText
-								heading='Introduction'
-								text='According to the National Universities Commission in Nigeria, students must meet up to 75% lecture attendance to qualify for that course’s examination. According to their analysis, students who attend class regularly can improve their academic performance. The general method used by some tertiary institutions during physical classes involves writing attendance on paper.
+							<div className='flex flex-col gap-[8px] md:hidden '>
+								<ProjectText
+									text='According to the National Universities Commission in Nigeria, students must meet up to 75% lecture attendance to qualify for that course’s examination. According to their analysis, students who attend class regularly can improve their academic performance.
+                           '
+								/>
+
+								<ProjectText
+									text=' The general method used by some tertiary institutions during physical classes involves writing attendance on paper.
+                                    In as much as this method is a means to an end, it can be easily manipulated by students and time consuming for lecturers to ensure that the attendance is free from such manipulation after each class.'
+								/>
+
+								<ProjectText
+									text='
+                            This system was developed by my course mate for his final year project, and I collaborated as a designer. The timeline was very short so we had to work at a fast pace.'
+								/>
+							</div>
+
+							<div className='hidden md:block'>
+								<ProjectText
+									heading='Introduction'
+									text='According to the National Universities Commission in Nigeria, students must meet up to 75% lecture attendance to qualify for that course’s examination. According to their analysis, students who attend class regularly can improve their academic performance. The general method used by some tertiary institutions during physical classes involves writing attendance on paper.
                             In as much as this method is a means to an end, it can be easily manipulated by students and time consuming for lecturers to ensure that the attendance is free from such manipulation after each class.
                             This system was developed by my course mate for his final year project, and I collaborated as a designer. The timeline was very short so we had to work at a fast pace.'
-							/>
+								/>
+							</div>
 							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[160px] h-[52px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Dashboard
 							</div>
@@ -92,14 +111,14 @@ const AttendX = () => {
 							/>
 
 							<div>
-								<ProjectText 
-                                text="1. The lecturer whose role was to generate the QR code, and
-                                keep track of attendance"
-                                />
 								<ProjectText
-                                text="	2. The student whose role was to scan the QR code generated to
-                                validate attendance."
-                                />
+									text='1. The lecturer whose role was to generate the QR code, and
+                                keep track of attendance'
+								/>
+								<ProjectText
+									text='	2. The student whose role was to scan the QR code generated to
+                                validate attendance.'
+								/>
 							</div>
 
 							<ProjectText text='Next, I gathered mood boards on data representation, color and layout. Afterward I moved to sketching out ideas. Having a lot of physical contact with the project’s owner helped a lot and we were able to move faster by sticking to sketching and making iterations on paper first before proceeding to designing the User Interface.' />
