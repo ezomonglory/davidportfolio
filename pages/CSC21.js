@@ -9,7 +9,7 @@ import ProjectFooter from "../components/ProjectFooter";
 
 const CSC21 = () => {
 	const project = {
-		name: "CSC 2021-2022",
+		name: "CSC 21/22",
 		id: 5,
 		text: "Digital Yearbook",
 		image: "CSC Web.png",
