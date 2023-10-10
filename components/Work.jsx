@@ -12,7 +12,9 @@ const Work = () => {
 					key={i}
 					className='flex flex-col space-y-[16px] cursor-pointer '
 					onClick={() => {
-						router.push(`/${work.id}`);
+						if (i !== 5) {
+							router.push(`/${work.id}`);
+						}
 					}}
 				>
 					{/* <div className='bg-[#D9D9D9] rounded-[8px] w-full h-[280px] md:h-[435px]  ' 
