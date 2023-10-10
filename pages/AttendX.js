@@ -92,15 +92,14 @@ const AttendX = () => {
 							/>
 
 							<div>
-								<p className='text-[#646464]'>
-									{" "}
-									1. The lecturer whose role was to generate the QR code, and
-									keep track of attendance
-								</p>
-								<p className='text-[#646464]'>
-									2. The student whose role was to scan the QR code generated to
-									validate attendance.
-								</p>
+								<ProjectText 
+                                text="1. The lecturer whose role was to generate the QR code, and
+                                keep track of attendance"
+                                />>
+								<ProjectText
+                                text="	2. The student whose role was to scan the QR code generated to
+                                validate attendance."
+                                />
 							</div>
 
 							<ProjectText text='Next, I gathered mood boards on data representation, color and layout. Afterward I moved to sketching out ideas. Having a lot of physical contact with the project’s owner helped a lot and we were able to move faster by sticking to sketching and making iterations on paper first before proceeding to designing the User Interface.' />

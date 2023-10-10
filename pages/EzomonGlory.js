@@ -67,7 +67,7 @@ const EzomonGlory = () => {
 						<div className='  flex flex-col space-y-[16px] md:space-y-[32px] '>
 							<ProjectText
 								heading='Overview'
-								text="I had the pleasure of collaborating on the interface design for a  portfolio website with a frontend developer. What made this project particularly enjoyable was the numerous iterations we went through. The initial version (v1) of the portfolio didn't make it online because we came up with a revised version (v2) right after the developer had completed the first version. You can check out the interface design below or click the CTA to visit the site."
+								text="I had the pleasure of collaborating on the interface design for a  portfolio website with a frontend developer. What made this project particularly enjoyable was the numerous iterations we went through. You can check out the interface design below or click the CTA to visit the site."
 							/>
 							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Site
