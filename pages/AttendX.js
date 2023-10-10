@@ -90,7 +90,8 @@ const AttendX = () => {
 								heading='Getting Started'
 								text='I started by analyzing the system architecture and activity diagram, to get a visual interpretation of the flow which provided information on the type of users i was to design for. The design caters for two users:'
 							/>
-							<ol>
+
+							<div>
 								<p className='text-[#646464]'>
 									{" "}
 									1. The lecturer whose role was to generate the QR code, and
@@ -100,7 +101,7 @@ const AttendX = () => {
 									2. The student whose role was to scan the QR code generated to
 									validate attendance.
 								</p>
-							</ol>
+							</div>
 
 							<ProjectText text='Next, I gathered mood boards on data representation, color and layout. Afterward I moved to sketching out ideas. Having a lot of physical contact with the project’s owner helped a lot and we were able to move faster by sticking to sketching and making iterations on paper first before proceeding to designing the User Interface.' />
 						</div>
@@ -113,7 +114,7 @@ const AttendX = () => {
 
 							<div>
 								<div className=' bg-[#D9D9D9] rounded-[2px]  w-full video-container   '>
-									<video src='/ATTENDX.mp4' controls type='video/mp4' ></video>
+									<video src='/ATTENDX.mp4' controls type='video/mp4'></video>
 								</div>
 								<h1 className='neue-reg text-[#646464] neue-md mt-[16px] '>
 									Scanning the QR-Code to mark attendance
