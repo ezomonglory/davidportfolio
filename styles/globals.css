@@ -121,16 +121,19 @@
 }
 
 video {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
-  
-  
-  
-  
-  
-  
-  
+/* .abouttext {
+	font-family: librereg;
+} */
+
+
+	.abouttext {
+		font-family: neue_montrealmedium;
+        letter-spacing: -1px !important;
+	}
+

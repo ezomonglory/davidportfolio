@@ -45,7 +45,7 @@ const AttendX = () => {
 										</h1>
 										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
-											UI Designer, Researcher{" "}
+											UI Designer{" "}
 										</p>
 									</div>
 									<div className='flex space-x-2 items-center'>
@@ -54,7 +54,7 @@ const AttendX = () => {
 										</h1>
 										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
 											{" "}
-											Design Dashboard{" "}
+											 Dashboard Design{" "}
 										</p>
 									</div>
 								</div>

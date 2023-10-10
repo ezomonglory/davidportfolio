@@ -74,12 +74,14 @@ const EzomonGlory = () => {
 							</div>
 						</div>
 
-						<div className='flex flex-col space-y-[24px]'>
+						<div className='flex flex-col space-y-[16px] md:space-y-[24px]'>
 							<ProjectText heading='Design Preview' />
 
 							<img src='/Design Preview.png' alt='dd' className='w-full' />
 
-							<ProjectText heading='Ideas that didnt make it to the live site' />
+							<div className="!mt-[48px] md:!mt-[48px]" >
+                            <ProjectText heading='Ideas that didnt make it to the live site' />
+                            </div>
 
 							<div>
 								<div className='bg-gray-500 w-full video-container '>
@@ -94,7 +96,7 @@ const EzomonGlory = () => {
 								</p>
 							</div>
 
-							<div>
+							<div className="!mt-[24px] md:!mt-[32px]" >
 								<div className='bg-gray-500 video-container w-full '>
 									<video
 										src='/EZOMON GLORY 2.mp4'

@@ -36,7 +36,7 @@ export const Workdata = [
     },
     
     {
-        name:"RCF(Uniben) App",
+        name:"RCF Uniben (Launnching soon)",
         id:6,
         text:"Lifestyle",
         image:"RCF Uniben Web.png"
