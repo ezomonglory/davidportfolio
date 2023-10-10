@@ -8,16 +8,9 @@ export const Workdata = [
 
 	{
 		name: "AttendX",
-		id: "AttendX",
+		id: "/AttendX",
 		text: "Attendance Management System",
 		image: "AttendX Web.png",
-	},
-
-	{
-		name: "Siav",
-		id: 3,
-		text: "Health Insurance",
-		image: "Siav Web.png",
 	},
 
 	{
@@ -32,6 +25,13 @@ export const Workdata = [
 		id: "/CSC21",
 		text: "Digital Yearbook",
 		image: "CSC Web.png",
+	},
+
+	{
+		name: "Saiv",
+		id: "/Saiv",
+		text: "Health Insurance",
+		image: "Siav Web.png",
 	},
 
 	{
