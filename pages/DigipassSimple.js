@@ -37,7 +37,6 @@ const DigipassSimple = () => {
 									</h1>
 								</div>
 
-								
 								<div className='flex flex-col space-y-[4px] md:space-y-[8px] '>
 									<div className='flex space-x-2 items-center'>
 										<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
@@ -49,7 +48,7 @@ const DigipassSimple = () => {
 										</p>
 									</div>
 									<div className='flex space-x-2 items-center'>
-												<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
+										<h1 className=' text-[16px] leading-[24px] tracking-[-0.01px] md:text-[18px] text-[#212121] md:leading-[24px] md:tracking-[-0.1px] neue-md  '>
 											Deliverables:
 										</h1>
 										<p className='text-[#212121] text-[16px] leading-[24px]  neue-reg md:text-[16px] md:leading-[24px] md:tracking-[-0.1px] neue-reg  '>
@@ -76,7 +75,7 @@ const DigipassSimple = () => {
 						<div className='  flex flex-col  '>
 							<ProjectText
 								heading='Overview'
-								text='As a final year university student majoring in Computer Science, for my final year project i focused on enhancing the verification process for granting students access to the examination hall within my department'
+								text='As a final year university student majoring in Computer Science, for my final year project I focused on enhancing the verification process for granting students access to the examination hall within my department'
 							/>
 						</div>
 
@@ -90,14 +89,14 @@ const DigipassSimple = () => {
 						<div className=''>
 							<ProjectText
 								heading='The Goal'
-								text='The goal of the project was to develop a student attendance system that uses QR code technology to improve attendance management.'
+								text="Based on the insights I gathered, I formulated the project's goal, which is to enhance the methods of student identification during examinations within my department."
 							/>
 						</div>
 
 						<div className='flex flex-col space-y-[8px] md:space-y-[16px]'>
 							<ProjectText
 								heading='Approaching The Problem'
-								text="Based on the insights I gathered, I formulated the project's goal, which is to enhance the methods of student identification during examinations within my department."
+								text='The proposed system was named "Digipass." This name is a fusion of "Digital" and "Pass," signifying its role in revolutionizing the exam screening process. Digipass harnesses the potentials of Near Field Communication (NFC) Technology to enhance this process.'
 							/>
 
 							<ProjectText text='Next, I gathered mood boards on data representation, color and layout. Afterward I moved to sketching out ideas. Having a lot of physical contact with the project’s owner helped a lot and we were able to move faster by sticking to sketching and making iterations on paper first before proceeding to designing the User Interface.' />
@@ -110,7 +109,9 @@ const DigipassSimple = () => {
 							/>
 
 							<div>
-								<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px]   '></div>
+								<div className=' bg-[#D9D9D9] rounded-[2px]   video-container  '>
+									<video src='/First.mp4' controls></video>
+								</div>
 								<h1 className='neue-reg text-[#646464] neue-md mt-[16px] '>
 									Obtaining the NFC card serial number from the live mobile
 									authenticator.
@@ -118,7 +119,9 @@ const DigipassSimple = () => {
 							</div>
 
 							<div>
-								<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px]  '></div>
+								<div className=' bg-[#D9D9D9] rounded-[2px]   video-container  '>
+									<video src='/Second.mp4' controls></video>
+								</div>
 								<h1 className='neue-reg text-[#646464] neue-md mt-[16px] '>
 									Registering the NFC Card on the live dashboard.
 								</h1>
@@ -133,7 +136,9 @@ const DigipassSimple = () => {
 							/>
 
 							<div>
-								<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px]   '></div>
+								<div className=' bg-[#D9D9D9] rounded-[2px]   video-container  '>
+									<video src='/Third.mp4' controls></video>
+								</div>
 								<h1 className='neue-reg text-[#646464] neue-md mt-[16px] '>
 									Scanning the NFC Card to verify the student’s detail
 								</h1>
@@ -148,7 +153,9 @@ const DigipassSimple = () => {
 							/>
 
 							<div>
-								<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px]   '></div>
+								<div className=' bg-[#D9D9D9] rounded-[2px]   video-container  '>
+                                    <video src="/Fourth.mp4" controls></video>
+                                </div>
 								<h1 className='neue-reg text-[#646464] neue-md mt-[16px] '>
 									Clocking in a student that has already been clocked in
 								</h1>
@@ -180,8 +187,8 @@ const DigipassSimple = () => {
 							</div>
 						</div>
 
-						<div className="!md:mt-[64px] !mt-[48px] " >
-							<ProjectFooter prev="null" next="/AttendX" />
+						<div className='!md:mt-[64px] !mt-[48px] '>
+							<ProjectFooter prev='null' next='/AttendX' />
 						</div>
 					</div>
 				</div>

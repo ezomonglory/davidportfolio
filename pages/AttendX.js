@@ -92,9 +92,12 @@ const AttendX = () => {
                             This system was developed by my course mate for his final year project, and I collaborated as a designer. The timeline was very short so we had to work at a fast pace.'
 								/>
 							</div>
-							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[160px] h-[52px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
+							<a
+                            href="https://project-nine-silk.vercel.app/"
+                            target="_blank"
+                            className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[160px] h-[52px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Dashboard
-							</div>
+							</a>
 						</div>
 
 						<div className=''>

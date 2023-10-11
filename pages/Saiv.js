@@ -68,9 +68,12 @@ const Saiv = () => {
 
 								<ProjectText text='Check out the full case study out on Behance.' />
 							</div>
-							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[180px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
+							<a 
+                            href="https://www.behance.net/gallery/148887747/Saiv"
+                            target="_blank"
+                            className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[180px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View on Behance
-							</div>
+							</a>
 						</div>
 
 						{/* <div className=''>

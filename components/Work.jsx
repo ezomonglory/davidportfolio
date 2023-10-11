@@ -17,15 +17,7 @@ const Work = () => {
 						}
 					}}
 				>
-					{/* <div className='bg-[#D9D9D9] rounded-[8px] w-full h-[280px] md:h-[435px]  ' 
-                // style={{
-                //     backgroundImage:`url('/${work.image}')`,
-                //     backgrounPosition:"contain",
-                //     backgroundSize:"contain",
-                //     backgroundRepeat:"no-repeat"
-                // }}
-                >
-                    </div> */}
+					
 					<img className='w-full h-full' src={`${work.image}`} />
 					<div>
 						<h1 className='text-[20px] neue-md leading-[28px] tracking-[-0.5px]  text-[#212121]  '>

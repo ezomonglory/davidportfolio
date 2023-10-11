@@ -89,20 +89,20 @@ const DigipassFull = () => {
 								heading='Research'
 								text='Being fortunate to have access to past examination passes used in previous academic sessions allowed me to carefully study and analyze them. After studying the examination passes and drafting my observations, I conducted interviews with departmental lecturers to clarify and verify the information gathered through my observation. I was able to gather valuable insights regarding the process. While the confidentiality of the interview details is essential, several key findings emerged:'
 							/>
-							<ol>
-								<li className='text-[#646464]'>
+							<div>
+								
 									{" "}
-									1. The examination pass serves as an additional means of
+									<ProjectText text="1. The examination pass serves as an additional means of
 									student identification during exams, and its useis limited to
-									my department alone.
-								</li>
-								<li className='text-[#646464]'>
-									2. The method used to verify the validity of the examination
+									my department alone."/>
+								
+								
+									<ProjectText text="2. The method used to verify the validity of the examination
 									pass is by confirming if the picture on the pass matches the
 									individual presenting it and if it carries the Head of
-									department signature.
-								</li>
-							</ol>
+									department signature."/>
+								
+							</div>
 
 							<ProjectText text='As a subject of the method, I was able to compare my experiences and analysis with the results from the interviews and realized that there is an absence of an efficient system that grants students access to the examination halls. Even with the current measures applied, issues of impersonation continue to arise.' />
 						</div>
@@ -146,14 +146,18 @@ const DigipassFull = () => {
 									text='Before students can be verified, their details must have been registered on the dashboard to link the NFC card with their information before they are assigned an NFC card. Part of the registration process on the dashboard includes entering the NFC card number assigned to the NFC card. Please refer to the video below for a visual demonstration.'
 								/>
 
-								<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px]'></div>
+								<div className=' bg-[#D9D9D9] rounded-[2px]   video-container  '>
+									<video src='/First.mp4' controls></video>
+								</div>
 							</div>
 							<h1 className='neue-reg text-[#646464] tracking-[-0.1px] '>
 								Obtaining the NFC card serial number from the live mobile
 								authenticator.
 							</h1>
 
-							<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px] !mt-[24px]  '></div>
+                            <div className=' bg-[#D9D9D9] rounded-[2px]   video-container  '>
+									<video src='/Second.mp4' controls></video>
+								</div>
 							<h1 className='neue-reg text-[#646464] tracking-[-0.1px] '>
 								Registering the NFC Card on the live dashboard.
 							</h1>
@@ -167,7 +171,9 @@ const DigipassFull = () => {
 							/>
 
 							<div>
-								<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px]   '></div>
+                            <div className=' bg-[#D9D9D9] rounded-[2px]   video-container  '>
+									<video src='/Third.mp4' controls></video>
+								</div>
 								<h1 className='neue-reg text-[#646464] tracking-[-0.1px] mt-[16px] '>
 									Scanning the NFC Card to verify the student’s detail
 								</h1>
@@ -182,7 +188,9 @@ const DigipassFull = () => {
 							/>
 
 							<div>
-								<div className=' bg-[#D9D9D9] rounded-[2px] h-[400px]   '></div>
+                            <div className=' bg-[#D9D9D9] rounded-[2px]   video-container  '>
+                                    <video src="/Fourth.mp4" controls></video>
+                                </div>
 								<h1 className='neue-reg text-[#646464] tracking-[-0.1px] mt-[16px] '>
 									Clocking in a student that has already been clocked in
 								</h1>
@@ -223,8 +231,8 @@ const DigipassFull = () => {
 
 							<ProjectText text="Additionally, the mobile authenticator can be integrated with a campus portal to retrieve students' details directly. This integration ensures that the card's information is always up-to-date, reflecting any changes made by students through their portal accounts. As part of my project, we developed a basic dashboard to demonstrate how this system is intended to function." />
 						</div>
-						<div className="!md:mt-[64px] !mt-[48px] " >
-							<ProjectFooter prev="null" next="/AttendX"  />
+						<div className='!md:mt-[64px] !mt-[48px] '>
+							<ProjectFooter prev='null' next='/AttendX' />
 						</div>
 					</div>
 				</div>

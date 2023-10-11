@@ -69,9 +69,12 @@ const CSC21 = () => {
 								heading='Overview'
 								text='I came up with an idea to create a digital experience for my class where we had a website that housed our memories in form of pictures and videos and luckily, it synced with the fact that it was my final academic year in school and there was a list of activities they had planned for the final year week otherwise known as FYB Week.'
 							/>
-							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
+							<a 
+                            href="https://csc21-22.vercel.app/"
+                            target="_blank"
+                            className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer '>
 								View Site
-							</div>
+							</a>
 						</div>
 
 						{/* <div className=''>
@@ -95,9 +98,12 @@ const CSC21 = () => {
 								<video src='/CSC.mp4' controls type='video/mp4'></video>
 							</div>					
 
-							<div className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer  !md:mt-[16px] '>
+							<a 
+                            href="https://csc21-22.vercel.app/"
+                            target="_blank"
+                            className='bg-gradient !md:p-0 !md:py-[10px] !md:px-[20px] tracking-[-0.01px] md:tracking-normal   w-[140px] h-[48px] flex items-center justify-center !px-[16px]  md:w-[160px] text-center cursor-pointer  !md:mt-[16px] '>
 								View Site
-							</div>
+							</a>
 						</div>
 
 						<div>
