@@ -3,9 +3,7 @@ import { ArrowTopSvg, behanceSvg, igSvg, linkeinsvg } from "../data";
 
 const FotterBottom = () => {
 	const [location, setLocation] = useState(true);
-	useEffect(() => {
-        console.log(window.location.pathname)
-        console.log(window.location.hostname)
+	useEffect(() => {     
 		if (window.location.pathname === "/") {
 			setLocation(false);
 		}
