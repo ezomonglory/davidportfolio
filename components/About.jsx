@@ -79,7 +79,7 @@ const About = () => {
 					I specialize
 					<br className='hidden lg:block' />
 					in product design, continuously refining my{" "}
-					<br className='md:hidden' /> skills.My latest exploration is in
+					<br className='md:hidden' /> skills. My latest exploration is in
 					<br className='hidden lg:block' />
 					motion design, a passion <br className='md:hidden' />I pursue
 					alongside my professional endeavors.
