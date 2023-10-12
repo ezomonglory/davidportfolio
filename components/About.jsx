@@ -11,44 +11,14 @@ const About = () => {
 					i’m David Otu
 				</h1>
 
-				<div className='bg-gradient font-[18px] !rounded-[8px] h-[48px]  items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] hidden md:flex'>
+				<a href="/DAVID OTU.pdf" download="David Otu resume" className='bg-gradient font-[18px] !rounded-[8px] h-[48px]  items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] hidden md:flex'>
 					Resume
-				</div>
+				</a>
 			</div>
 
 			<div className='md:w-[50%] space-y-[24px] '>
-				<p className='text-[#505050] text-justify md:text-left neue-reg md:text-[16px] md:leading-[28px] tracking-[-1%] md:tracking-[0px] text-[14px] leading-[24px] mb-[8px] md:hidden   '>
-					{/* I started out as a meme enthusiast creating funny visuals when i
-					discovered Corel draw during my secondary school days. Overtime, i
-					ascended the ranks and evolved into a professional graphic designer.
-					My journey continued as i sojourned into presentation design and
-					ultimately found myself immersed in the captivating world of product
-					design.
-					{show ? (
-						<span>
-							Currently, i am exploring motion design as a hobby. But, beyond
-							the world of design, i live a bubbly life and you’ll often catch
-							me binge watching movies and actively indulging my friends in fun
-							activities.{" "}
-							 <span
-								className='text-black font-bold ml-[2px] '
-								onClick={() => {
-									setShow(false);
-								}}
-							>
-								{" "}show less
-							</span>
-						</span>
-					) : (
-						<span
-							className='text-black font-bold'
-							onClick={() => {
-								setShow(true);
-							}}
-						>
-							... More
-						</span>
-					)} */}
+				<p className='text-[#505050] text-justify  md:text-left neue-reg md:text-[16px] md:leading-[28px] tracking-[-1%] md:tracking-[0px] text-[14px] leading-[24px] mb-[8px] md:hidden   '>
+				
 					My journey commenced as a meme enthusiast, where I{" "}
 					<br className='md:hidden' />
 					honed my creativity <br className='hidden md:block' />
@@ -62,8 +32,8 @@ const About = () => {
 						{" "}
 						Today, I specialize {" "}						
 						in product design, continuously refining{" "}
-						<br className='md:hidden' /> my skills.My latest exploration is in
-						<br className='hidden md:block' />
+						<br className='md:hidden' /> my skills. My latest exploration is in
+						<br className='hidden md:block' /> {" "}
 						motion design, a <br className='md:hidden' /> passion I pursue
 						alongside my professional endeavors.
 					</span>
@@ -97,57 +67,27 @@ const About = () => {
 				</div> */}
 
 				<p className='text-[#787878] hidden md:flex neue-reg md:text-[16px] md:leading-[28px] tracking-[-1%] md:tracking-[0px] text-[14px] leading-[24px] mb-[8px]  md:items-end md:justify-end   '>
-					{/* I started out as a meme enthusiast creating funny visuals when i
-					discovered Corel draw during my secondary school days. Overtime, i
-					ascended the ranks and evolved into a professional graphic designer.
-					My journey continued as i sojourned into presentation design and
-					ultimately found myself immersed in the captivating world of product
-					design.
-					{show ? (
-						<span>
-							Currently, i am exploring motion design as a hobby. But, beyond
-							the world of design, i live a bubbly life and you’ll often catch
-							me binge watching movies and actively indulging my friends in fun
-							activities.{" "}
-							 <span
-								className='text-black font-bold ml-[2px] '
-								onClick={() => {
-									setShow(false);
-								}}
-							>
-								{" "}show less
-							</span>
-						</span>
-					) : (
-						<span
-							className='text-black font-bold'
-							onClick={() => {
-								setShow(true);
-							}}
-						>
-							... More
-						</span>
-					)} */}
+					
 					My journey commenced as a meme enthusiast, where I{" "}
 					<br className='md:hidden' /> honed my creativity{" "}
-					<br className='hidden md:block' />
-					using Corel Draw during secondary <br className='md:hidden' /> school.
+					<br className='hidden lg:block' />
+					using Corel Draw during secondary <br className='lg:hidden' /> school.
 					Over time, I progressed into a
-					<br className='hidden md:block' />
+					<br className='hidden lg:block' />
 					seasoned graphic <br className='md:hidden' /> designer, delving into
 					presentation design. Today, <br className='md:hidden' />
 					I specialize
-					<br className='hidden md:block' />
+					<br className='hidden lg:block' />
 					in product design, continuously refining my{" "}
 					<br className='md:hidden' /> skills.My latest exploration is in
-					<br className='hidden md:block' />
+					<br className='hidden lg:block' />
 					motion design, a passion <br className='md:hidden' />I pursue
 					alongside my professional endeavors.
 				</p>
 
-				<div className='bg-gradient font-[18px] !rounded-[8px] h-[48px]  items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] flex md:hidden '>
+				<a href="/DAVID OTU.pdf" download="David Otu resume" className='bg-gradient font-[18px] !rounded-[8px] h-[48px]  items-center justify-center w-[140px] leading-[28px] tracking-[-0.5px] flex md:hidden '>
 					Resume
-				</div>
+				</a >
 			</div>
 		</div>
 	);

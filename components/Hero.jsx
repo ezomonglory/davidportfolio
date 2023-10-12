@@ -10,7 +10,8 @@ const Hero = () => {
 	return (
 		<div className='overflow-hidden relative'>
 			{/* <LineTop />         */}
-			<div className='absolute inset-0 flex items-start justify-start '>
+			<div className='absolute inset-0 flex items-start justify-start '          
+            >
 				{/* Horizontal Line */}
 				<div className='absolute w-full  mt-[32px]  h-[1.5px] bg-[#D7D7D7]'></div>
 
@@ -23,11 +24,17 @@ const Hero = () => {
 				<div className=' w-[16px] md:w-[81px] h-full  '> </div>
 				<div className=' w-full border-transparent px-[4px] '>
 					<HeroTop />
-					<HeroMiddle />
+					
+                    <HeroMiddle />
+                    
 				</div>
 				<div className=' w-[16px] md:w-[80px] h-full  '> </div>
 			</div>
-			<div className=' flex mx-[16px] md:mx-[60px]'>
+			<div className=' flex mx-[16px] md:mx-[60px] overflow-hidden relative ' 
+            onClick={()=>{
+                alert("hell")
+            }}
+            >
 				
 				<HeroFooter />
 				

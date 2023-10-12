@@ -137,3 +137,25 @@ video {
         letter-spacing: -1px !important;
 	}
 
+    .fancy{
+        display: none !important;
+    }
+
+@media (max-width:330px) {
+    .unfancy{
+        display: none;
+    }
+        .david{
+            padding-left: 15px ;
+            padding-right: 15px;
+        }
+
+        .prod{
+            font-size: 56px ;
+            line-height: 52px;
+        }
+
+        .fancy{
+            display: block !important;
+        }
+}

@@ -3,7 +3,7 @@ import React from "react";
 const HeroMiddle = () => {
 	return (
 		<div className='flex flex-col md:flex-row justify-between items-start md:items-end  py-[90px] gap-[16px]  relative '>
-			<h1 className='text-[#212121] md:text-[146px] md:tracking-[-8px] text-[68px] leading-[65px] md:leading-[124px] tracking-[-4px] order-2 md:order-1 libre-reg protext mx-[4px] '>
+			<h1 className='text-[#212121] md:text-[146px] md:tracking-[-8px] text-[68px] leading-[65px] md:leading-[124px] tracking-[-4px] order-2 md:order-1 libre-reg protext mx-[4px] prod'>
 				Product <br /> Designer.{" "}
 			</h1>
 
