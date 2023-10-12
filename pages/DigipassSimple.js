@@ -99,7 +99,7 @@ const DigipassSimple = () => {
 								text='The proposed system was named "Digipass." This name is a fusion of "Digital" and "Pass," signifying its role in revolutionizing the exam screening process. Digipass harnesses the potentials of Near Field Communication (NFC) Technology to enhance this process.'
 							/>
 
-							<ProjectText text='Next, I gathered mood boards on data representation, color and layout. Afterward I moved to sketching out ideas. Having a lot of physical contact with the project’s owner helped a lot and we were able to move faster by sticking to sketching and making iterations on paper first before proceeding to designing the User Interface.' />
+							
 						</div>
 
 						<div className=' flex flex-col space-y-[24px] '>

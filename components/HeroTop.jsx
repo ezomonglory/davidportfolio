@@ -63,7 +63,7 @@ const HeroTop = () => {
 				</p>
 
 				<p className='text-[#787878] text-[16px] tracking-[-0.5px] leading-[24px] neue-reg md:text-[18px] md:leading-[28px] md:tracking-[-0.5px] neue-md order-2 '>
-					Lagos,NG
+					Lagos, NG
 				</p>
 			</div>
 		</div>
