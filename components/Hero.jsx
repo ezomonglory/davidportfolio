@@ -30,10 +30,7 @@ const Hero = () => {
 				</div>
 				<div className=' w-[16px] md:w-[80px] h-full  '> </div>
 			</div>
-			<div className=' flex mx-[16px] md:mx-[60px] overflow-hidden relative ' 
-            onClick={()=>{
-                alert("hell")
-            }}
+			<div className=' flex mx-[16px] md:mx-[60px] overflow-hidden relative '         
             >
 				
 				<HeroFooter />
