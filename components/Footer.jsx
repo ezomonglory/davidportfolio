@@ -4,7 +4,7 @@ import FotterBottom from './FotterBottom'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='mt-[128px]' >
         <FooterTop/>
         <FotterBottom />
     </div>

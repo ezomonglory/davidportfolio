@@ -131,31 +131,65 @@ video {
 	font-family: librereg;
 } */
 
+.abouttext {
+	font-family: neue_montrealmedium;
+	letter-spacing: -1px !important;
+}
 
-	.abouttext {
-		font-family: neue_montrealmedium;
-        letter-spacing: -1px !important;
+.fancy {
+	display: none !important;
+}
+
+@media (max-width: 330px) {
+	.unfancy {
+		display: none;
+	}
+	.david {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
-    .fancy{
-        display: none !important;
+	.prod {
+		font-size: 56px;
+		line-height: 52px;
+	}
+
+	.fancy {
+		display: block !important;
+	}
+}
+
+.works {
+	display: grid;
+    grid-auto-rows: 300px;
+	
+	grid-template-areas:
+		"attendX attendX digipass"
+		"EG CSC RCF  ";
+}
+
+@media (max-width:768px){
+    .works{
+        display: grid;
+        grid-auto-rows: auto;
+        grid-template-areas: "attendX" "digipass" "EG" "CSC" "RCF";
     }
+}
 
-@media (max-width:330px) {
-    .unfancy{
-        display: none;
-    }
-        .david{
-            padding-left: 15px ;
-            padding-right: 15px;
-        }
+.attendX {
+	grid-area: attendX;
+}
+.EG {
+	grid-area: EG;
+}
 
-        .prod{
-            font-size: 56px ;
-            line-height: 52px;
-        }
-
-        .fancy{
-            display: block !important;
-        }
+.CSC {
+	grid-area: CSC;
+}
+.RCF {
+	grid-area: RCF;
+}
+.digipass {
+	grid-area: digipass;
+    height: 100%;
 }

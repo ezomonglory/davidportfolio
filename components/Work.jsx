@@ -6,28 +6,36 @@ const Work = () => {
 	const router = useRouter();
 
 	return (
-		<div className='bg-[#F5F5F5] px-[16px] pt-[32px] pb-[80px] md:pb-[132px] md:pt-[40px] md:px-[70px]  grid grid-cols-1 md:grid-cols-2 gap-[48px] md:gap-[32px] relative z-20 '>
-			{Workdata.map((work, i) => (
-				<div
-					key={i}
-					className='flex flex-col space-y-[16px] cursor-pointer '
-					onClick={() => {
-						if (i !== 5) {
-							router.push(`/${work.id}`);
-						}
-					}}
-				>
-					
-					<img className='w-full h-full' src={`${work.image}`} />
-					<div>
-						<h1 className='text-[20px] neue-md leading-[28px] tracking-[-0.5px]  text-[#212121]  '>
-							{work.name}
-						</h1>
+		<div className="md:py-[80px]" >
+			<h1 className="md:text-[30px] text-[24px] leading-[30px]  text-[#505050] neue-reg md:leading-[38px] tracking-[-0.5px] md:w-[550px] md:mb-[56px] mb-[40px] w-[300px] " >
+				The featured projects include fun projects, client work, and
+				explorations.
+			</h1>
+			<div className=' works gap-y-[32px] md:gap-y-[100px] gap-x-[24px] '>
+				{Workdata.map((work, i) => (
+					<div key={i} className={work.style}>
+						<div
+							className='flex flex-col h-full space-y-[16px] cursor-pointer '
+							onClick={() => {
+								if (i !== 5) {
+									router.push(`/${work.id}`);
+								}
+							}}
+						>
+							<img className='w-full h-full' src={`${work.image}`} />
+							<div>
+								<h1 className='text-[20px] neue-md leading-[28px] tracking-[-0.5px]  text-[#212121]  '>
+									{work.name}
+								</h1>
 
-						<p className='text-[#787878] neue-reg text-[14px] '>{work.text}</p>
+								<p className='text-[#787878] neue-reg text-[14px] '>
+									{work.text}
+								</p>
+							</div>
+						</div>
 					</div>
-				</div>
-			))}
+				))}
+			</div>
 		</div>
 	);
 };

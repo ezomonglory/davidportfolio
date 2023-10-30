@@ -3,7 +3,8 @@ export const Workdata = [
 		name: "Digipass",
 		id: "/DigipassSimple",
 		text: "Mobile authenticator access control",
-		image: "DigiPass Web.png",
+		image: "Digipass.jpg",
+        style:"digipass"
 	},
 
 	{
@@ -11,6 +12,8 @@ export const Workdata = [
 		id: "/AttendX",
 		text: "Attendance Management System",
 		image: "AttendX Web.png",
+        style:"attendX"
+
 	},
 
 	{
@@ -18,6 +21,8 @@ export const Workdata = [
 		id: "/EzomonGlory",
 		text: "Portfolio Website",
 		image: "Ezomon Glory.png",
+        style:"EG"
+
 	},
 
 	{
@@ -25,20 +30,18 @@ export const Workdata = [
 		id: "/CSC21",
 		text: "Digital Yearbook",
 		image: "CSC Web.png",
-	},
+        style:"CSC"
 
-	{
-		name: "Saiv",
-		id: "/Saiv",
-		text: "Health Insurance",
-		image: "Siav Web.png",
 	},
+	
 
 	{
 		name: "RCF Uniben (Launching soon)",
 		id: 6,
 		text: "Lifestyle",
 		image: "RCF Uniben Web.png",
+        style:"RCF"
+
 	},
 ];
 

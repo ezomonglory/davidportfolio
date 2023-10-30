@@ -2,46 +2,30 @@ import { useRouter } from "next/navigation";
 import React, { useEffect, useRef } from "react";
 
 const FooterTop = () => {
-	const router = useRouter();
-
-	const addText = () => {
-		document
-			.querySelector("#text")
-			.insertAdjacentHTML(
-				"beforeend",
-				"<span>Got a gig for me? - Contact me</span>",
-			);
-	};
-
-	useEffect(() => {
-		const interVal = setInterval(() => {
-			addText();
-		}, 1000);
-
-		return () => clearInterval(interVal);
-	}, []);
-
 	return (
-		<div className='md:mt-[114px] mt-[80px]  '>
-			<h1 className='text-[#505050]  text-[30px] leading-[38px]  tracking-[-1px]  md:text-[56px] md:leading-[64px] md:tracking-[-2%] neue-light text-center font-[300] '>
-				Get in touch - Get in touch
-			</h1>
+		<div className='flex justify-between items-end md:py-[40px] md:px-[64px] py-[32px] px-[16px]'>
+			<div className='flex flex-col space-y-[8px]'>
+				<a className='text-[#141414] md:text-[18px] leading-[24px] md:leading-[28px] tracking-[-0.5px] neue-md '>
+					Twitter
+				</a>
 
-			<div className='bg-[#212121] w-full h-full rotate-[-5deg] scroll-container '>
-				<div
-					id='text'
-					className=' whitespace-nowrap text-white leading-[12px] neue-reg tracking-[-2%] h-fit space-x-[120px]  w-full inline-flex py-[10px]  translate-x-[-1000px]   '
-				>
-					<span>Got a gig for me? - Contact me</span>
-					<span>Got a gig for me? - Contact me</span>
-					<span>Got a gig for me? - Contact me</span>
-					<span>Got a gig for me? - Contact me</span>
-					<span>Got a gig for me? - Contact me</span>
-					<span>Got a gig for me? - Contact me</span>
-				</div>
+				<a className='text-[#141414] md:text-[18px] leading-[24px] md:leading-[28px] tracking-[-0.5px] neue-md '>
+					Instagram
+				</a>
+
+				<a className='text-[#141414] md:text-[18px] leading-[24px] md:leading-[28px] tracking-[-0.5px] neue-md '>
+					LinkedIn
+				</a>
 			</div>
+
+			<a
+				href='https://www.ezomonglory.codes'
+				target='_blank'
+				className='text-[#141414] md:text-[18px] leading-[24px] md:leading-[28px] tracking-[-0.5px] neue-md '
+			>
+				Developed by E.G
+			</a>
 		</div>
-		// </div>
 	);
 };
 
