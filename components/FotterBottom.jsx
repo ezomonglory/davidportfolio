@@ -206,3 +206,5 @@ const FotterBottom = () => {
 		</div>
 	);
 };
+
+export default FotterBottom;
