@@ -37,7 +37,7 @@ const FotterBottom = () => {
 					</a>
 				</div>
 			</div>
-			
+)			
 };
 
 export default FotterBottom;
