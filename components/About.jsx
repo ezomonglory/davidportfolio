@@ -30,7 +30,7 @@ const About = () => {
 					<br className='md:hidden' />{" "}
 					<span className='!mt-[8px] inline-block  md:mt-0 '>
 						{" "}
-						Today, I specialize {" "}						
+					Today, I specialize {" "}						
 						in product design, continuously refining{" "}
 						<br className='md:hidden' /> my skills. My latest exploration is in
 						<br className='hidden md:block' /> {" "}
