@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "./Button";
 
 const About = () => {
 	const [show, setShow] = useState(false);
